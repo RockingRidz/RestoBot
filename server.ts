@@ -219,7 +219,7 @@ function getGeminiClient(): GoogleGenAI | null {
         httpOptions: {
           timeout: 30000,
           headers: {
-            'User-Agent': 'aistudio-build',
+            'User-Agent': 'restobot-by-ridith',
           },
         },
       });

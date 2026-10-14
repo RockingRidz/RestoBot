@@ -1,64 +1,104 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# RestoBot
 
-# Run and deploy your AI Studio app
+RestoBot is an AI-powered food-waste reduction and restaurant operations platform created by **Ridith S. Shetty**. It combines demand forecasting, inventory monitoring, recipe costing, waste analytics, margin protection, and purchasing recommendations in one authenticated workspace.
 
-This contains everything you need to run your app locally.
+## Purpose
 
-View your app in AI Studio: https://ai.studio/apps/13073baa-adf2-4de2-973a-a5fad3ab69b0
+Restaurants often over-purchase ingredients because their sales, recipes, inventory, supplier information, and waste records are stored separately. RestoBot connects those records so a restaurant can estimate demand, identify low stock, understand ingredient usage, review waste, and prepare safer purchase plans.
 
-## Run Locally
+The application supports Ridith's India Book of Records submission for **Youngest Creator of AI for Restaurant Food Waste Management**.
 
-**Prerequisites:**  Node.js
+## Main features
 
+- Authenticated restaurant workspaces backed by Supabase
+- Restaurant-level row security and isolated account data
+- Daily demand forecasting from recorded sales history
+- Interactive sales, inventory, waste, and performance graphs
+- Ingredient inventory with thresholds, costs, suppliers, and pack sizes
+- Complete recipes linked to menu dishes and ingredients
+- Recipe costing and target-margin monitoring
+- Waste logging with quantity, reason, and estimated loss
+- Smart purchasing recommendations based on forecast demand and current stock
+- Reviewable daily order notes and order-history records
+- Optional server-side AI assistance with strict usage controls
+- Deterministic forecasting when external AI is disabled
 
-1. Install dependencies:
-   `npm install`
-2. AI provider access is optional. It is disabled by default; deterministic forecasting remains available without it.
+## Technology
 
-For the supplied synthetic Birchwood workspace, run `npm run demo:birchwood` from this directory and open http://127.0.0.1:3001. It keeps Supabase disconnected and fixture edits in memory. Provider-backed AI requests require an explicit enable flag, a positive daily cap, a server-only credential, and outbound network access. The default daily cap is zero, so credentials alone cannot create usage. The source fixture is incomplete and old; generated estimates do not establish current restaurant demand. To use port 3002 in PowerShell, set `$env:PORT='3002'` before launching.
-3. Run the app:
-   `npm run dev`
+- React 19 and TypeScript
+- Vite
+- Express
+- Supabase Auth and PostgreSQL
+- Recharts
+- Node.js
 
-## Dashboard data and AI forecasts
+## Local setup
 
-Use **Generate AI forecast** to request a next-day prediction from the configured
-configured AI service. `/api/ai/forecast` supplies the last 90 days of recorded daily sales,
-validates one nonnegative prediction per active menu item, and calculates revenue
-and purchasing from recorded prices, recipes and stock (10% safety buffer).
-The saved response, including model, generation time and target date, is shared
-by the dashboard, sales chart and editable order plan. Changing workspace records
-invalidates the displayed forecast; generate again after changes. Reloading the
-page also requires regeneration. No AI call runs just from opening a screen.
+Requirements: Node.js 20 or newer and a Supabase project with the included migrations applied.
 
-Missing credentials, missing recent history, malformed model output and storage
-failures leave forecasts unavailable; no client-side baseline or sample forecast
-is substituted. Actual sales, inventory and waste graphs remain record-derived.
-Demo mode still explicitly displays sample restaurant records. Forecast accuracy
-and waste savings stay unavailable until measured. The assistant no longer uses
-canned supplier-price recommendations when the AI service is unavailable.
+```bash
+npm install
+copy .env.example .env.local
+npm run dev
+```
 
-Configure `GEMINI_API_KEY` on the server and, if needed, `GEMINI_MODEL` for a model
-available to your account. Never put this secret in a Vite client variable.
-The older `/api/forecast` endpoint remains the deterministic baseline for existing
-engine workflows and backtesting; the new Rinet screens use `/api/ai/forecast`.
+Open `http://localhost:3000`.
 
-## Order approval milestone — 25 September
+Never commit `.env.local`. Public browser configuration uses the Supabase URL and anonymous key; the service-role key and optional AI key must remain server-only.
 
-The Daily Order Note requires an approved revision before clipboard or PDF export.
-Quantity changes and exclusions require a reason. The server retrieves the saved
-forecast, validates every suggested line, calculates costs from its stored prices,
-and saves suggested/approved quantities, actor, time, reason and forecast ID in
-the existing order history JSON. Approval records cannot be changed through the
-status API. Further edits invalidate the UI approval and require a new revision.
-Linked clipboard exports use the stored approved text and preserve its reference.
-Expand an Order History note to inspect the saved details. Local demo approvals
-have no verified user and are explicitly identified as such.
+## Environment configuration
 
-This records approved revisions, not every unsaved keystroke. Legacy export
-endpoints remain compatible and do not enforce this new screen's approval gate.
-Live database durability for this new approval flow still needs verification;
-automated API tests use isolated memory storage. Public launch still requires
-multi-restaurant isolation/permission testing, live AI and real-history evaluation,
-production deployment/monitoring, backup restore verification and a restaurant pilot.
+Copy `.env.example` and provide the required values:
+
+- `SUPABASE_URL`
+- `SUPABASE_ANON_KEY`
+- `SUPABASE_SERVICE_ROLE_KEY`
+- `VITE_SUPABASE_URL`
+- `VITE_SUPABASE_ANON_KEY`
+- `RESTOBOT_RESTAURANT_ID`
+
+Public signup is disabled by default. AI requests and automated draft scheduling are also disabled by default and require explicit server-side configuration.
+
+## Database setup
+
+Apply the SQL files in `supabase/migrations` in numerical order. They create the restaurant, profile, ingredient, recipe, sales, forecast, waste, supplier, and order tables together with tenant-aware access policies and atomic workflows.
+
+## Testing and production build
+
+```bash
+npm test
+npm run build
+```
+
+The production server exposes `/healthz` for deployment health checks.
+
+## Render deployment
+
+This repository includes `render.yaml`.
+
+1. Create a Render Blueprint from this GitHub repository.
+2. Enter the Supabase values in Render's private environment-variable interface.
+3. Never paste the service-role key into source code or a public variable.
+4. Deploy the service.
+5. Add the final Render address to Supabase's allowed redirect URLs.
+6. Verify authentication, graphs, recipes, inventory, forecasts, waste records, and order history using the dedicated reviewer account.
+
+The blueprint keeps public signup, automatic supplier actions, scheduled drafts, and paid AI usage disabled. These features should only be enabled after explicit operational review.
+
+## Demonstration data
+
+The repository contains clearly labelled synthetic data for reproducible demonstrations and graph testing. Synthetic records are not presented as real restaurant measurements, customer results, financial savings, or proof of forecast accuracy.
+
+## Safety and data handling
+
+- Secrets and environment files are excluded by `.gitignore`.
+- Supplier delivery is not automatic.
+- Purchase recommendations require human review.
+- AI-generated output is advisory and must be verified by the restaurant.
+- Real customer, payment, and personally identifiable restaurant data should not be committed.
+
+## Creator
+
+Designed and developed by **Ridith S. Shetty**.
+
+RestoBot — smarter restaurant planning, lower waste, and better purchasing decisions.
