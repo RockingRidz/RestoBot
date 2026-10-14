@@ -1,40 +1,64 @@
+<div align="center">
+
 # RestoBot
 
-RestoBot is an AI-powered food-waste reduction and restaurant operations platform created by **Ridith S. Shetty**. It combines demand forecasting, inventory monitoring, recipe costing, waste analytics, margin protection, and purchasing recommendations in one authenticated workspace.
+### AI powered food waste reduction and restaurant planning
 
-## Purpose
+Created by **Ridith S. Shetty** · India Book of Records application: **Youngest Creator of AI for Restaurant Food Waste Management**
 
-Restaurants often over-purchase ingredients because their sales, recipes, inventory, supplier information, and waste records are stored separately. RestoBot connects those records so a restaurant can estimate demand, identify low stock, understand ingredient usage, review waste, and prepare safer purchase plans.
+[Features](#what-restobot-does) · [Screenshots](#product-screenshots) · [Setup](#run-locally) · [Deploy](#deploy-on-render)
 
-The application supports Ridith's India Book of Records submission for **Youngest Creator of AI for Restaurant Food Waste Management**.
+</div>
 
-## Main features
+RestoBot brings restaurant sales, recipes, inventory, waste tracking, and purchasing into one workspace. It helps a restaurant estimate what it may need for an upcoming service, account for stock already on hand, and prepare an order note for a person to review.
 
-- Authenticated restaurant workspaces backed by Supabase
-- Restaurant-level row security and isolated account data
-- Daily demand forecasting from recorded sales history
-- Interactive sales, inventory, waste, and performance graphs
-- Ingredient inventory with thresholds, costs, suppliers, and pack sizes
-- Complete recipes linked to menu dishes and ingredients
-- Recipe costing and target-margin monitoring
-- Waste logging with quantity, reason, and estimated loss
-- Smart purchasing recommendations based on forecast demand and current stock
-- Reviewable daily order notes and order-history records
-- Optional server-side AI assistance with strict usage controls
-- Deterministic forecasting when external AI is disabled
+> **About the screenshots:** The included product captures use clearly labelled synthetic demonstration data. They show interface workflows and charts, not real restaurant results, measured savings, or forecast accuracy.
+
+## What RestoBot does
+
+- **Demand planning:** builds sales forecasts from recorded history and presents estimates for review.
+- **Recipe linked inventory:** connects menu dishes to ingredients, quantities, stock levels, and costs.
+- **Waste tracking:** records discarded ingredients, quantities, and reasons for later analysis.
+- **Purchasing support:** estimates ingredient requirements after considering recipes and available stock.
+- **Order review:** prepares editable order notes and keeps a history of saved drafts and approvals. It does not automatically send orders to suppliers.
+- **Graphs and reports:** visualizes sales history, forecasts, stock, waste, and restaurant performance.
+- **Optional AI assistance:** server side AI requests are disabled by default and require explicit configuration. Deterministic workflows remain available when AI is off.
+- **Restaurant account security:** Supabase Auth and tenant scoped database policies protect restaurant workspace data.
+
+## Product screenshots
+
+### 1. Restaurant dashboard and sales graph
+
+![RestoBot dashboard with its forecast banner, restaurant metrics, sales graph, and order summary](docs/images/dashboard-synthetic-demo.png)
+
+This capture shows the main workspace: navigation to sales, recipes, inventory and the daily order note; an explicit synthetic-data notice; a sales history chart; high level forecast and inventory cards; and a link into the editable order workflow. The forecast shown is an estimate for demonstration and is not a measured accuracy result.
+
+### 2. Order history and saved drafts
+
+![RestoBot order history showing synthetic supplier drafts and their review status](docs/images/order-history-synthetic-demo.png)
+
+This screen shows saved order history entries, including the supplier label, channel, approval or copy status, and note preview. Supplier names and contacts in this demo are synthetic. A saved, copied, or approved note does not confirm that an order was delivered.
+
+## Typical workflow
+
+1. Record or import sales history.
+2. Maintain menu recipes and ingredient quantities.
+3. Update inventory, costs, and supplier catalogue details.
+4. Review forecast estimates and the related sales graph.
+5. Inspect the proposed ingredient quantities and edit the daily order note.
+6. Review and approve the order note before independently contacting a supplier.
+7. Log waste and review reports as operational records accumulate.
 
 ## Technology
 
-- React 19 and TypeScript
-- Vite
-- Express
+- React 19, TypeScript, and Vite
+- Express and Node.js
 - Supabase Auth and PostgreSQL
 - Recharts
-- Node.js
 
-## Local setup
+## Run locally
 
-Requirements: Node.js 20 or newer and a Supabase project with the included migrations applied.
+Requirements: Node.js 20 or newer, npm, and a Supabase project with the included database migrations applied.
 
 ```bash
 npm install
@@ -44,61 +68,49 @@ npm run dev
 
 Open `http://localhost:3000`.
 
-Never commit `.env.local`. Public browser configuration uses the Supabase URL and anonymous key; the service-role key and optional AI key must remain server-only.
+Set the required values in `.env.local`: `SUPABASE_URL`, `SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY`, `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`, and `RESTOBOT_RESTAURANT_ID`. Use a server only secret for the service role key. Never add `.env.local` or secret values to Git.
 
-## Environment configuration
-
-Copy `.env.example` and provide the required values:
-
-- `SUPABASE_URL`
-- `SUPABASE_ANON_KEY`
-- `SUPABASE_SERVICE_ROLE_KEY`
-- `VITE_SUPABASE_URL`
-- `VITE_SUPABASE_ANON_KEY`
-- `RESTOBOT_RESTAURANT_ID`
-
-Public signup is disabled by default. AI requests and automated draft scheduling are also disabled by default and require explicit server-side configuration.
+Public account creation, optional AI calls, and automated scheduling are disabled by default. Do not enable them until their production behavior and access controls have been reviewed.
 
 ## Database setup
 
-Apply the SQL files in `supabase/migrations` in numerical order. They create the restaurant, profile, ingredient, recipe, sales, forecast, waste, supplier, and order tables together with tenant-aware access policies and atomic workflows.
+Apply the SQL files in `supabase/migrations` in numerical order. The migrations define restaurant profiles, menu items, ingredients, recipes, sales, forecasts, waste entries, suppliers, order notes, row level security, and atomic workflow functions.
 
-## Testing and production build
+## Build and tests
 
 ```bash
 npm test
 npm run build
 ```
 
-The production server exposes `/healthz` for deployment health checks.
+The Express server exposes `/healthz` for deployment health checks.
 
-## Render deployment
+## Deploy on Render
 
-This repository includes `render.yaml`.
+The repository includes [`render.yaml`](render.yaml) with the Node web service build, start, health check, and safe default configuration.
 
-1. Create a Render Blueprint from this GitHub repository.
-2. Enter the Supabase values in Render's private environment-variable interface.
-3. Never paste the service-role key into source code or a public variable.
-4. Deploy the service.
-5. Add the final Render address to Supabase's allowed redirect URLs.
-6. Verify authentication, graphs, recipes, inventory, forecasts, waste records, and order history using the dedicated reviewer account.
+1. In Render, create a **Blueprint** from `RockingRidz/RestoBot`.
+2. Review the service settings from `render.yaml`.
+3. Enter Supabase URL, anonymous key, and service role key in Render's private environment settings when prompted. The service role key must remain server only.
+4. Deploy and wait for `/healthz` to pass.
+5. Add the deployed Render URL to Supabase Auth's allowed redirect URLs.
+6. Test login and verify the dashboard, graphs, recipes, inventory, waste records, and order history.
 
-The blueprint keeps public signup, automatic supplier actions, scheduled drafts, and paid AI usage disabled. These features should only be enabled after explicit operational review.
+The blueprint keeps public signup, AI calls, and automated scheduling disabled. Supplier delivery is not automated; purchase notes require human review.
 
-## Demonstration data
+## Demo data and limitations
 
-The repository contains clearly labelled synthetic data for reproducible demonstrations and graph testing. Synthetic records are not presented as real restaurant measurements, customer results, financial savings, or proof of forecast accuracy.
+Synthetic fixtures exist for repeatable workflow and chart demonstrations. They must not be represented as actual restaurant transactions, measured waste reductions, proven savings, or forecast validation. Product screenshots above are illustrative captures of the application and its demo content.
 
-## Safety and data handling
+## Security notes
 
-- Secrets and environment files are excluded by `.gitignore`.
-- Supplier delivery is not automatic.
-- Purchase recommendations require human review.
-- AI-generated output is advisory and must be verified by the restaurant.
-- Real customer, payment, and personally identifiable restaurant data should not be committed.
+- `.gitignore` excludes local environment files, keys, certificates, database dumps, and build output.
+- Never put Supabase service role keys or AI provider keys in browser variables or source files.
+- Keep reviewer credentials private and share them only through the intended review channel.
+- Restaurant users should check all forecasts and purchase suggestions before acting on them.
 
 ## Creator
 
 Designed and developed by **Ridith S. Shetty**.
 
-RestoBot — smarter restaurant planning, lower waste, and better purchasing decisions.
+RestoBot helps restaurants plan purchasing with sales, recipes, and current stock in view.

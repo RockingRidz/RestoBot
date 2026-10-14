@@ -37,3 +37,4 @@ synthetic-data/*/import-report.json
 # Private one-time reviewer provisioning (not required by the deployed app)
 scripts/provision-ibr-demo.ts
 supabase/migrations/008_invited_reviewer_accounts.sql
+/docs/images/dashboard-graph-evidence.png
