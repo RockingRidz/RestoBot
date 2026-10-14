@@ -42,6 +42,23 @@ export function aiRequestsAllowed(env: NodeJS.ProcessEnv = process.env): boolean
   return policy.enabled && policy.dailyLimit > 0 && policy.perMinuteLimit > 0 && policy.concurrentLimit > 0;
 }
 
+export function aiAvailability(env: NodeJS.ProcessEnv = process.env) {
+  const policy = aiUsagePolicy(env);
+  if (!env.GEMINI_API_KEY?.trim()) return { available:false as const, reason:'missing_credential' as const };
+  if (!policy.enabled) return { available:false as const, reason:'disabled' as const };
+  if (policy.dailyLimit === 0) return { available:false as const, reason:'zero_daily_limit' as const };
+  if (policy.perMinuteLimit === 0) return { available:false as const, reason:'zero_minute_limit' as const };
+  if (policy.concurrentLimit === 0) return { available:false as const, reason:'zero_concurrent_limit' as const };
+  return { available:true as const, reason:null };
+}
+
+export function aiUnavailableMessage(env: NodeJS.ProcessEnv = process.env): string {
+  const status = aiAvailability(env);
+  if (status.reason === 'missing_credential') return 'AI assistant unavailable: the server credential is missing.';
+  if (status.reason === 'disabled') return 'AI assistant unavailable: AI requests are disabled by server policy.';
+  return 'AI assistant unavailable: the server usage limit must be greater than zero.';
+}
+
 function refreshWindows(now: Date) {
   const day = now.toISOString().slice(0, 10);
   if (state.day !== day) {

@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from 'vitest';
-import { aiRequestsAllowed, aiUsagePolicy, resetAiUsageForTests, withAiUsageLimit } from '../lib/aiUsage';
+import { aiAvailability, aiRequestsAllowed, aiUnavailableMessage, aiUsagePolicy, resetAiUsageForTests, withAiUsageLimit } from '../lib/aiUsage';
 
 describe('AI usage policy', () => {
   beforeEach(() => resetAiUsageForTests());
@@ -15,6 +15,15 @@ describe('AI usage policy', () => {
     expect(aiRequestsAllowed({ RESTOBOT_AI_ENABLED: 'true' } as NodeJS.ProcessEnv)).toBe(false);
     expect(aiRequestsAllowed({ RESTOBOT_AI_MAX_REQUESTS_PER_DAY: '10' } as NodeJS.ProcessEnv)).toBe(false);
     expect(aiRequestsAllowed({ RESTOBOT_AI_ENABLED: 'true', RESTOBOT_AI_MAX_REQUESTS_PER_DAY: '10' } as NodeJS.ProcessEnv)).toBe(true);
+  });
+
+  it('distinguishes credentials from intentionally disabled usage', () => {
+    expect(aiAvailability({} as NodeJS.ProcessEnv).reason).toBe('missing_credential');
+    const credential = { GEMINI_API_KEY:'test-key' } as NodeJS.ProcessEnv;
+    expect(aiAvailability(credential).reason).toBe('disabled');
+    expect(aiUnavailableMessage(credential)).toContain('disabled by server policy');
+    expect(aiAvailability({ ...credential, RESTOBOT_AI_ENABLED:'true' } as NodeJS.ProcessEnv).reason).toBe('zero_daily_limit');
+    expect(aiAvailability({ ...credential, RESTOBOT_AI_ENABLED:'true', RESTOBOT_AI_MAX_REQUESTS_PER_DAY:'10' } as NodeJS.ProcessEnv).available).toBe(true);
   });
 
   it('enforces per-minute and daily request caps before dispatch', async () => {
