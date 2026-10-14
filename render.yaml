@@ -1,0 +1,41 @@
+services:
+  - type: web
+    name: restobot
+    runtime: node
+    region: singapore
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: RESTOBOT_RESTAURANT_ID
+        value: 4b7f7099-132d-4b01-aaa8-43cc13adcd0b
+      - key: RESTOBOT_RESTAURANT_NAME
+        value: RestoBot IBR Demo Restaurant
+      - key: RESTOBOT_LOCATION
+        value: Synthetic demonstration workspace
+      - key: RESTOBOT_CUISINE
+        value: Thai & Asian Fusion (Synthetic)
+      - key: RESTOBOT_WHOLESALERS
+        value: Synthetic suppliers only
+      - key: VITE_RESTOBOT_ALLOW_SIGNUP
+        value: "false"
+      - key: RESTOBOT_AI_ENABLED
+        value: "false"
+      - key: RESTOBOT_AI_MAX_REQUESTS_PER_DAY
+        value: "0"
+      - key: RESTOBOT_SCHEDULER_ENABLED
+        value: "false"
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: VITE_SUPABASE_URL
+        sync: false
+      - key: VITE_SUPABASE_ANON_KEY
+        sync: false
