@@ -1,0 +1,35 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Local credentials, certificates, exports and database dumps
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.sql.gz
+
+# Local/generated test artifacts
+*.generated.mjs
+output.json
+test4_output.json
+chaos_inventory.csv
+messy_inventory.csv
+birchwood-results-*/
+birchwood-verified-*/
+synthetic-data/*/import-report.json
+.vite/
+.cache/
+.vercel/
+.render/

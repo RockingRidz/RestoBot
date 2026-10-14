@@ -1,0 +1,434 @@
+[
+  {
+    "id": "menu_001",
+    "restaurant_id": "rest_demo_001",
+    "name": "Classic Cheeseburger",
+    "selling_price": 14.5,
+    "target_margin_percent": 68,
+    "recipes": [
+      {
+        "ingredient_id": "ing_001",
+        "quantity_required": 0.33,
+        "unit": "lb",
+        "id": "menu_001_ing_001",
+        "menu_item_id": "menu_001"
+      },
+      {
+        "ingredient_id": "ing_002",
+        "quantity_required": 0.08,
+        "unit": "lb",
+        "id": "menu_001_ing_002",
+        "menu_item_id": "menu_001"
+      },
+      {
+        "ingredient_id": "ing_003",
+        "quantity_required": 1,
+        "unit": "pcs",
+        "id": "menu_001_ing_003",
+        "menu_item_id": "menu_001"
+      },
+      {
+        "ingredient_id": "ing_004",
+        "quantity_required": 0.05,
+        "unit": "lb",
+        "id": "menu_001_ing_004",
+        "menu_item_id": "menu_001"
+      },
+      {
+        "ingredient_id": "ing_005",
+        "quantity_required": 0.08,
+        "unit": "lb",
+        "id": "menu_001_ing_005",
+        "menu_item_id": "menu_001"
+      },
+      {
+        "ingredient_id": "ing_006",
+        "quantity_required": 0.04,
+        "unit": "lb",
+        "id": "menu_001_ing_006",
+        "menu_item_id": "menu_001"
+      }
+    ],
+    "category": "Unspecified",
+    "is_active": true
+  },
+  {
+    "id": "menu_002",
+    "restaurant_id": "rest_demo_001",
+    "name": "Margherita Pizza",
+    "selling_price": 16,
+    "target_margin_percent": 70,
+    "recipes": [
+      {
+        "ingredient_id": "ing_007",
+        "quantity_required": 0.55,
+        "unit": "lb",
+        "id": "menu_002_ing_007",
+        "menu_item_id": "menu_002"
+      },
+      {
+        "ingredient_id": "ing_008",
+        "quantity_required": 0.3,
+        "unit": "lb",
+        "id": "menu_002_ing_008",
+        "menu_item_id": "menu_002"
+      },
+      {
+        "ingredient_id": "ing_009",
+        "quantity_required": 0.2,
+        "unit": "lb",
+        "id": "menu_002_ing_009",
+        "menu_item_id": "menu_002"
+      },
+      {
+        "ingredient_id": "ing_010",
+        "quantity_required": 0.15,
+        "unit": "oz",
+        "id": "menu_002_ing_010",
+        "menu_item_id": "menu_002"
+      }
+    ],
+    "category": "Unspecified",
+    "is_active": true
+  },
+  {
+    "id": "menu_003",
+    "restaurant_id": "rest_demo_001",
+    "name": "Caesar Salad",
+    "selling_price": 12,
+    "target_margin_percent": 65,
+    "recipes": [
+      {
+        "ingredient_id": "ing_011",
+        "quantity_required": 0.3,
+        "unit": "lb",
+        "id": "menu_003_ing_011",
+        "menu_item_id": "menu_003"
+      },
+      {
+        "ingredient_id": "ing_012",
+        "quantity_required": 0.06,
+        "unit": "lb",
+        "id": "menu_003_ing_012",
+        "menu_item_id": "menu_003"
+      },
+      {
+        "ingredient_id": "ing_013",
+        "quantity_required": 0.06,
+        "unit": "lb",
+        "id": "menu_003_ing_013",
+        "menu_item_id": "menu_003"
+      },
+      {
+        "ingredient_id": "ing_014",
+        "quantity_required": 2,
+        "unit": "fl_oz",
+        "id": "menu_003_ing_014",
+        "menu_item_id": "menu_003"
+      },
+      {
+        "ingredient_id": "ing_015",
+        "quantity_required": 0.2,
+        "unit": "lb",
+        "id": "menu_003_ing_015",
+        "menu_item_id": "menu_003"
+      }
+    ],
+    "category": "Unspecified",
+    "is_active": true
+  },
+  {
+    "id": "menu_004",
+    "restaurant_id": "rest_demo_001",
+    "name": "Grilled Salmon",
+    "selling_price": 24,
+    "target_margin_percent": 62,
+    "recipes": [
+      {
+        "ingredient_id": "ing_016",
+        "quantity_required": 0.45,
+        "unit": "lb",
+        "id": "menu_004_ing_016",
+        "menu_item_id": "menu_004"
+      },
+      {
+        "ingredient_id": "ing_017",
+        "quantity_required": 0.25,
+        "unit": "lb",
+        "id": "menu_004_ing_017",
+        "menu_item_id": "menu_004"
+      },
+      {
+        "ingredient_id": "ing_018",
+        "quantity_required": 0.5,
+        "unit": "pcs",
+        "id": "menu_004_ing_018",
+        "menu_item_id": "menu_004"
+      },
+      {
+        "ingredient_id": "ing_019",
+        "quantity_required": 0.06,
+        "unit": "lb",
+        "id": "menu_004_ing_019",
+        "menu_item_id": "menu_004"
+      }
+    ],
+    "category": "Unspecified",
+    "is_active": true
+  },
+  {
+    "id": "menu_005",
+    "restaurant_id": "rest_demo_001",
+    "name": "Fettuccine Alfredo",
+    "selling_price": 17.5,
+    "target_margin_percent": 68,
+    "recipes": [
+      {
+        "ingredient_id": "ing_020",
+        "quantity_required": 0.4,
+        "unit": "lb",
+        "id": "menu_005_ing_020",
+        "menu_item_id": "menu_005"
+      },
+      {
+        "ingredient_id": "ing_021",
+        "quantity_required": 3.5,
+        "unit": "fl_oz",
+        "id": "menu_005_ing_021",
+        "menu_item_id": "menu_005"
+      },
+      {
+        "ingredient_id": "ing_012",
+        "quantity_required": 0.08,
+        "unit": "lb",
+        "id": "menu_005_ing_012",
+        "menu_item_id": "menu_005"
+      },
+      {
+        "ingredient_id": "ing_019",
+        "quantity_required": 0.05,
+        "unit": "lb",
+        "id": "menu_005_ing_019",
+        "menu_item_id": "menu_005"
+      },
+      {
+        "ingredient_id": "ing_022",
+        "quantity_required": 0.03,
+        "unit": "lb",
+        "id": "menu_005_ing_022",
+        "menu_item_id": "menu_005"
+      }
+    ],
+    "category": "Unspecified",
+    "is_active": true
+  },
+  {
+    "id": "menu_006",
+    "restaurant_id": "rest_demo_001",
+    "name": "BBQ Ribs (Half Rack)",
+    "selling_price": 21,
+    "target_margin_percent": 60,
+    "recipes": [
+      {
+        "ingredient_id": "ing_023",
+        "quantity_required": 0.85,
+        "unit": "lb",
+        "id": "menu_006_ing_023",
+        "menu_item_id": "menu_006"
+      },
+      {
+        "ingredient_id": "ing_024",
+        "quantity_required": 2.5,
+        "unit": "fl_oz",
+        "id": "menu_006_ing_024",
+        "menu_item_id": "menu_006"
+      },
+      {
+        "ingredient_id": "ing_025",
+        "quantity_required": 0.2,
+        "unit": "lb",
+        "id": "menu_006_ing_025",
+        "menu_item_id": "menu_006"
+      }
+    ],
+    "category": "Unspecified",
+    "is_active": true
+  },
+  {
+    "id": "menu_007",
+    "restaurant_id": "rest_demo_001",
+    "name": "Black Truffle Risotto",
+    "selling_price": 28,
+    "target_margin_percent": 55,
+    "recipes": [
+      {
+        "ingredient_id": "ing_026",
+        "quantity_required": 0.35,
+        "unit": "lb",
+        "id": "menu_007_ing_026",
+        "menu_item_id": "menu_007"
+      },
+      {
+        "ingredient_id": "ing_027",
+        "quantity_required": 0.4,
+        "unit": "oz",
+        "id": "menu_007_ing_027",
+        "menu_item_id": "menu_007"
+      },
+      {
+        "ingredient_id": "ing_012",
+        "quantity_required": 0.1,
+        "unit": "lb",
+        "id": "menu_007_ing_012",
+        "menu_item_id": "menu_007"
+      },
+      {
+        "ingredient_id": "ing_019",
+        "quantity_required": 0.06,
+        "unit": "lb",
+        "id": "menu_007_ing_019",
+        "menu_item_id": "menu_007"
+      },
+      {
+        "ingredient_id": "ing_028",
+        "quantity_required": 1.5,
+        "unit": "fl_oz",
+        "id": "menu_007_ing_028",
+        "menu_item_id": "menu_007"
+      },
+      {
+        "ingredient_id": "ing_029",
+        "quantity_required": 4,
+        "unit": "fl_oz",
+        "id": "menu_007_ing_029",
+        "menu_item_id": "menu_007"
+      }
+    ],
+    "category": "Unspecified",
+    "is_active": true
+  },
+  {
+    "id": "menu_008",
+    "restaurant_id": "rest_demo_001",
+    "name": "Buffalo Wings (1lb)",
+    "selling_price": 15.5,
+    "target_margin_percent": 66,
+    "recipes": [
+      {
+        "ingredient_id": "ing_030",
+        "quantity_required": 1,
+        "unit": "lb",
+        "id": "menu_008_ing_030",
+        "menu_item_id": "menu_008"
+      },
+      {
+        "ingredient_id": "ing_031",
+        "quantity_required": 2.5,
+        "unit": "fl_oz",
+        "id": "menu_008_ing_031",
+        "menu_item_id": "menu_008"
+      },
+      {
+        "ingredient_id": "ing_032",
+        "quantity_required": 0.1,
+        "unit": "lb",
+        "id": "menu_008_ing_032",
+        "menu_item_id": "menu_008"
+      },
+      {
+        "ingredient_id": "ing_033",
+        "quantity_required": 2,
+        "unit": "fl_oz",
+        "id": "menu_008_ing_033",
+        "menu_item_id": "menu_008"
+      }
+    ],
+    "category": "Unspecified",
+    "is_active": true
+  },
+  {
+    "id": "menu_009",
+    "restaurant_id": "rest_demo_001",
+    "name": "Veggie Hummus Wrap",
+    "selling_price": 11.5,
+    "target_margin_percent": 70,
+    "recipes": [
+      {
+        "ingredient_id": "ing_034",
+        "quantity_required": 1,
+        "unit": "pcs",
+        "id": "menu_009_ing_034",
+        "menu_item_id": "menu_009"
+      },
+      {
+        "ingredient_id": "ing_035",
+        "quantity_required": 0.2,
+        "unit": "lb",
+        "id": "menu_009_ing_035",
+        "menu_item_id": "menu_009"
+      },
+      {
+        "ingredient_id": "ing_036",
+        "quantity_required": 0.25,
+        "unit": "lb",
+        "id": "menu_009_ing_036",
+        "menu_item_id": "menu_009"
+      },
+      {
+        "ingredient_id": "ing_037",
+        "quantity_required": 0.08,
+        "unit": "lb",
+        "id": "menu_009_ing_037",
+        "menu_item_id": "menu_009"
+      }
+    ],
+    "category": "Unspecified",
+    "is_active": true
+  },
+  {
+    "id": "menu_010",
+    "restaurant_id": "rest_demo_001",
+    "name": "Chocolate Lava Cake",
+    "selling_price": 9.5,
+    "target_margin_percent": 72,
+    "recipes": [
+      {
+        "ingredient_id": "ing_038",
+        "quantity_required": 0.12,
+        "unit": "lb",
+        "id": "menu_010_ing_038",
+        "menu_item_id": "menu_010"
+      },
+      {
+        "ingredient_id": "ing_019",
+        "quantity_required": 0.06,
+        "unit": "lb",
+        "id": "menu_010_ing_019",
+        "menu_item_id": "menu_010"
+      },
+      {
+        "ingredient_id": "ing_039",
+        "quantity_required": 1,
+        "unit": "pcs",
+        "id": "menu_010_ing_039",
+        "menu_item_id": "menu_010"
+      },
+      {
+        "ingredient_id": "ing_040",
+        "quantity_required": 0.08,
+        "unit": "lb",
+        "id": "menu_010_ing_040",
+        "menu_item_id": "menu_010"
+      },
+      {
+        "ingredient_id": "ing_041",
+        "quantity_required": 0.06,
+        "unit": "lb",
+        "id": "menu_010_ing_041",
+        "menu_item_id": "menu_010"
+      }
+    ],
+    "category": "Unspecified",
+    "is_active": true
+  }
+]

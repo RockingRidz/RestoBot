@@ -1,0 +1,1046 @@
+{
+  "fixture": "Synthetic Birchwood Kitchen & Bar — Troy, Michigan",
+  "realWorldAccuracyEvidence": false,
+  "coverage": {
+    "rows": 499,
+    "menuItems": 10,
+    "ingredients": 43,
+    "distinctDates": 50,
+    "firstDate": "2026-05-31",
+    "lastDate": "2026-07-19",
+    "completeDates": 49,
+    "truncated": true,
+    "missingMenuDates": [
+      {
+        "date": "2026-07-19",
+        "item": "Chocolate Lava Cake"
+      }
+    ]
+  },
+  "totals": {
+    "units": 11465,
+    "revenue": 179892
+  },
+  "import": {
+    "mode": "isolated memory API test; not uploaded to Supabase",
+    "fullRecipeImportStatus": 422,
+    "fullRecipeImportFirstError": "Row 2: Missing ingredient for Classic Cheeseburger",
+    "salesOnlyImported": 499,
+    "repeatImported": 0,
+    "repeatDuplicates": 499
+  },
+  "margin": {
+    "actualAlert": {
+      "id": "alert_creep_ing_027_menu_007",
+      "restaurant_id": "rest_demo_001",
+      "ingredient_id": "ing_027",
+      "ingredient_name": "Black Truffle (Fresh)",
+      "affected_menu_item_id": "menu_007",
+      "affected_menu_item_name": "Black Truffle Risotto",
+      "old_cost": 12,
+      "new_cost": 19.5,
+      "increase_percent": 62.5,
+      "estimated_monthly_loss": 900,
+      "suggested_action": "🚨 PRICE SPIKE: Black Truffle (Fresh) rose 62.5%. Monthly loss: $900. Suggest raising Black Truffle Risotto to $32.2.",
+      "is_resolved": false,
+      "created_at": "2026-09-27T08:41:08.765Z"
+    },
+    "costIncreasePerDish": 3,
+    "marginDropPercentagePoints": 10.714285714285714,
+    "completeDishMargin": {
+      "beforeTruffleSpikeCost": 8.38,
+      "beforeTruffleSpikeMargin": 70.1,
+      "currentCost": 11.38,
+      "currentMargin": 59.4,
+      "targetMargin": 55,
+      "healthy": true
+    },
+    "substituteSuggestionsReturned": [],
+    "expectedSubstitutes": [
+      {
+        "substitute_id": "ing_042",
+        "substitute_name": "Truffle Oil",
+        "note": "Owner-provided: ~90% cheaper per portion; not independently costed"
+      },
+      {
+        "substitute_id": "ing_043",
+        "substitute_name": "Dried Porcini Mushroom",
+        "note": "Owner-provided: ~85% cheaper per portion; not independently costed"
+      }
+    ],
+    "matches": {
+      "priceSpike": true,
+      "affectedMenu": true,
+      "substitutes": false
+    },
+    "monthlyLossCaveat": "Engine assumes 300 dishes/month; $900 is not derived from this POS history."
+  },
+  "menuCosts": [
+    {
+      "menuItem": {
+        "id": "menu_001",
+        "restaurant_id": "rest_demo_001",
+        "name": "Classic Cheeseburger",
+        "selling_price": 14.5,
+        "target_margin_percent": 68,
+        "recipes": [
+          {
+            "ingredient_id": "ing_001",
+            "quantity_required": 0.33,
+            "unit": "lb",
+            "id": "menu_001_ing_001",
+            "menu_item_id": "menu_001"
+          },
+          {
+            "ingredient_id": "ing_002",
+            "quantity_required": 0.08,
+            "unit": "lb",
+            "id": "menu_001_ing_002",
+            "menu_item_id": "menu_001"
+          },
+          {
+            "ingredient_id": "ing_003",
+            "quantity_required": 1,
+            "unit": "pcs",
+            "id": "menu_001_ing_003",
+            "menu_item_id": "menu_001"
+          },
+          {
+            "ingredient_id": "ing_004",
+            "quantity_required": 0.05,
+            "unit": "lb",
+            "id": "menu_001_ing_004",
+            "menu_item_id": "menu_001"
+          },
+          {
+            "ingredient_id": "ing_005",
+            "quantity_required": 0.08,
+            "unit": "lb",
+            "id": "menu_001_ing_005",
+            "menu_item_id": "menu_001"
+          },
+          {
+            "ingredient_id": "ing_006",
+            "quantity_required": 0.04,
+            "unit": "lb",
+            "id": "menu_001_ing_006",
+            "menu_item_id": "menu_001"
+          }
+        ],
+        "category": "Unspecified",
+        "is_active": true,
+        "calculated_cost": 3.06,
+        "current_margin_percent": 78.9
+      },
+      "calculatedCost": 3.06,
+      "marginPercent": 78.9,
+      "targetMarginPercent": 68,
+      "isMarginHealthy": true,
+      "costBreakdown": [
+        {
+          "ingredient_name": "Beef Patty (80/20)",
+          "qty": 0.33,
+          "unit": "lb",
+          "unit_cost": 5.8,
+          "portion_cost": 1.914
+        },
+        {
+          "ingredient_name": "Cheddar Cheese",
+          "qty": 0.08,
+          "unit": "lb",
+          "unit_cost": 4.2,
+          "portion_cost": 0.336
+        },
+        {
+          "ingredient_name": "Burger Bun",
+          "qty": 1,
+          "unit": "pcs",
+          "unit_cost": 0.45,
+          "portion_cost": 0.45
+        },
+        {
+          "ingredient_name": "Lettuce",
+          "qty": 0.05,
+          "unit": "lb",
+          "unit_cost": 1.6,
+          "portion_cost": 0.08
+        },
+        {
+          "ingredient_name": "Tomato",
+          "qty": 0.08,
+          "unit": "lb",
+          "unit_cost": 2.1,
+          "portion_cost": 0.168
+        },
+        {
+          "ingredient_name": "Pickles",
+          "qty": 0.04,
+          "unit": "lb",
+          "unit_cost": 2.8,
+          "portion_cost": 0.112
+        }
+      ]
+    },
+    {
+      "menuItem": {
+        "id": "menu_002",
+        "restaurant_id": "rest_demo_001",
+        "name": "Margherita Pizza",
+        "selling_price": 16,
+        "target_margin_percent": 70,
+        "recipes": [
+          {
+            "ingredient_id": "ing_007",
+            "quantity_required": 0.55,
+            "unit": "lb",
+            "id": "menu_002_ing_007",
+            "menu_item_id": "menu_002"
+          },
+          {
+            "ingredient_id": "ing_008",
+            "quantity_required": 0.3,
+            "unit": "lb",
+            "id": "menu_002_ing_008",
+            "menu_item_id": "menu_002"
+          },
+          {
+            "ingredient_id": "ing_009",
+            "quantity_required": 0.2,
+            "unit": "lb",
+            "id": "menu_002_ing_009",
+            "menu_item_id": "menu_002"
+          },
+          {
+            "ingredient_id": "ing_010",
+            "quantity_required": 0.15,
+            "unit": "oz",
+            "id": "menu_002_ing_010",
+            "menu_item_id": "menu_002"
+          }
+        ],
+        "category": "Unspecified",
+        "is_active": true,
+        "calculated_cost": 2.61,
+        "current_margin_percent": 83.7
+      },
+      "calculatedCost": 2.61,
+      "marginPercent": 83.7,
+      "targetMarginPercent": 70,
+      "isMarginHealthy": true,
+      "costBreakdown": [
+        {
+          "ingredient_name": "Pizza Dough",
+          "qty": 0.55,
+          "unit": "lb",
+          "unit_cost": 1.3,
+          "portion_cost": 0.715
+        },
+        {
+          "ingredient_name": "Mozzarella Cheese",
+          "qty": 0.3,
+          "unit": "lb",
+          "unit_cost": 4.6,
+          "portion_cost": 1.38
+        },
+        {
+          "ingredient_name": "Tomato Sauce",
+          "qty": 0.2,
+          "unit": "lb",
+          "unit_cost": 1.9,
+          "portion_cost": 0.38
+        },
+        {
+          "ingredient_name": "Fresh Basil",
+          "qty": 0.15,
+          "unit": "oz",
+          "unit_cost": 0.9,
+          "portion_cost": 0.135
+        }
+      ]
+    },
+    {
+      "menuItem": {
+        "id": "menu_003",
+        "restaurant_id": "rest_demo_001",
+        "name": "Caesar Salad",
+        "selling_price": 12,
+        "target_margin_percent": 65,
+        "recipes": [
+          {
+            "ingredient_id": "ing_011",
+            "quantity_required": 0.3,
+            "unit": "lb",
+            "id": "menu_003_ing_011",
+            "menu_item_id": "menu_003"
+          },
+          {
+            "ingredient_id": "ing_012",
+            "quantity_required": 0.06,
+            "unit": "lb",
+            "id": "menu_003_ing_012",
+            "menu_item_id": "menu_003"
+          },
+          {
+            "ingredient_id": "ing_013",
+            "quantity_required": 0.06,
+            "unit": "lb",
+            "id": "menu_003_ing_013",
+            "menu_item_id": "menu_003"
+          },
+          {
+            "ingredient_id": "ing_014",
+            "quantity_required": 2,
+            "unit": "fl_oz",
+            "id": "menu_003_ing_014",
+            "menu_item_id": "menu_003"
+          },
+          {
+            "ingredient_id": "ing_015",
+            "quantity_required": 0.2,
+            "unit": "lb",
+            "id": "menu_003_ing_015",
+            "menu_item_id": "menu_003"
+          }
+        ],
+        "category": "Unspecified",
+        "is_active": true,
+        "calculated_cost": 2.7,
+        "current_margin_percent": 77.5
+      },
+      "calculatedCost": 2.7,
+      "marginPercent": 77.5,
+      "targetMarginPercent": 65,
+      "isMarginHealthy": true,
+      "costBreakdown": [
+        {
+          "ingredient_name": "Romaine Lettuce",
+          "qty": 0.3,
+          "unit": "lb",
+          "unit_cost": 1.75,
+          "portion_cost": 0.525
+        },
+        {
+          "ingredient_name": "Parmesan Cheese",
+          "qty": 0.06,
+          "unit": "lb",
+          "unit_cost": 8.5,
+          "portion_cost": 0.51
+        },
+        {
+          "ingredient_name": "Croutons",
+          "qty": 0.06,
+          "unit": "lb",
+          "unit_cost": 3.1,
+          "portion_cost": 0.186
+        },
+        {
+          "ingredient_name": "Caesar Dressing",
+          "qty": 2,
+          "unit": "fl_oz",
+          "unit_cost": 0.35,
+          "portion_cost": 0.7
+        },
+        {
+          "ingredient_name": "Chicken Breast",
+          "qty": 0.2,
+          "unit": "lb",
+          "unit_cost": 3.9,
+          "portion_cost": 0.78
+        }
+      ]
+    },
+    {
+      "menuItem": {
+        "id": "menu_004",
+        "restaurant_id": "rest_demo_001",
+        "name": "Grilled Salmon",
+        "selling_price": 24,
+        "target_margin_percent": 62,
+        "recipes": [
+          {
+            "ingredient_id": "ing_016",
+            "quantity_required": 0.45,
+            "unit": "lb",
+            "id": "menu_004_ing_016",
+            "menu_item_id": "menu_004"
+          },
+          {
+            "ingredient_id": "ing_017",
+            "quantity_required": 0.25,
+            "unit": "lb",
+            "id": "menu_004_ing_017",
+            "menu_item_id": "menu_004"
+          },
+          {
+            "ingredient_id": "ing_018",
+            "quantity_required": 0.5,
+            "unit": "pcs",
+            "id": "menu_004_ing_018",
+            "menu_item_id": "menu_004"
+          },
+          {
+            "ingredient_id": "ing_019",
+            "quantity_required": 0.06,
+            "unit": "lb",
+            "id": "menu_004_ing_019",
+            "menu_item_id": "menu_004"
+          }
+        ],
+        "category": "Unspecified",
+        "is_active": true,
+        "calculated_cost": 6.6,
+        "current_margin_percent": 72.5
+      },
+      "calculatedCost": 6.6,
+      "marginPercent": 72.5,
+      "targetMarginPercent": 62,
+      "isMarginHealthy": true,
+      "costBreakdown": [
+        {
+          "ingredient_name": "Salmon Fillet",
+          "qty": 0.45,
+          "unit": "lb",
+          "unit_cost": 11.5,
+          "portion_cost": 5.175
+        },
+        {
+          "ingredient_name": "Asparagus",
+          "qty": 0.25,
+          "unit": "lb",
+          "unit_cost": 3.6,
+          "portion_cost": 0.9
+        },
+        {
+          "ingredient_name": "Lemon",
+          "qty": 0.5,
+          "unit": "pcs",
+          "unit_cost": 0.55,
+          "portion_cost": 0.275
+        },
+        {
+          "ingredient_name": "Butter",
+          "qty": 0.06,
+          "unit": "lb",
+          "unit_cost": 4.1,
+          "portion_cost": 0.246
+        }
+      ]
+    },
+    {
+      "menuItem": {
+        "id": "menu_005",
+        "restaurant_id": "rest_demo_001",
+        "name": "Fettuccine Alfredo",
+        "selling_price": 17.5,
+        "target_margin_percent": 68,
+        "recipes": [
+          {
+            "ingredient_id": "ing_020",
+            "quantity_required": 0.4,
+            "unit": "lb",
+            "id": "menu_005_ing_020",
+            "menu_item_id": "menu_005"
+          },
+          {
+            "ingredient_id": "ing_021",
+            "quantity_required": 3.5,
+            "unit": "fl_oz",
+            "id": "menu_005_ing_021",
+            "menu_item_id": "menu_005"
+          },
+          {
+            "ingredient_id": "ing_012",
+            "quantity_required": 0.08,
+            "unit": "lb",
+            "id": "menu_005_ing_012",
+            "menu_item_id": "menu_005"
+          },
+          {
+            "ingredient_id": "ing_019",
+            "quantity_required": 0.05,
+            "unit": "lb",
+            "id": "menu_005_ing_019",
+            "menu_item_id": "menu_005"
+          },
+          {
+            "ingredient_id": "ing_022",
+            "quantity_required": 0.03,
+            "unit": "lb",
+            "id": "menu_005_ing_022",
+            "menu_item_id": "menu_005"
+          }
+        ],
+        "category": "Unspecified",
+        "is_active": true,
+        "calculated_cost": 2.84,
+        "current_margin_percent": 83.8
+      },
+      "calculatedCost": 2.84,
+      "marginPercent": 83.8,
+      "targetMarginPercent": 68,
+      "isMarginHealthy": true,
+      "costBreakdown": [
+        {
+          "ingredient_name": "Fettuccine Pasta",
+          "qty": 0.4,
+          "unit": "lb",
+          "unit_cost": 2.2,
+          "portion_cost": 0.88
+        },
+        {
+          "ingredient_name": "Heavy Cream",
+          "qty": 3.5,
+          "unit": "fl_oz",
+          "unit_cost": 0.28,
+          "portion_cost": 0.98
+        },
+        {
+          "ingredient_name": "Parmesan Cheese",
+          "qty": 0.08,
+          "unit": "lb",
+          "unit_cost": 8.5,
+          "portion_cost": 0.68
+        },
+        {
+          "ingredient_name": "Butter",
+          "qty": 0.05,
+          "unit": "lb",
+          "unit_cost": 4.1,
+          "portion_cost": 0.205
+        },
+        {
+          "ingredient_name": "Garlic",
+          "qty": 0.03,
+          "unit": "lb",
+          "unit_cost": 3.3,
+          "portion_cost": 0.099
+        }
+      ]
+    },
+    {
+      "menuItem": {
+        "id": "menu_006",
+        "restaurant_id": "rest_demo_001",
+        "name": "BBQ Ribs (Half Rack)",
+        "selling_price": 21,
+        "target_margin_percent": 60,
+        "recipes": [
+          {
+            "ingredient_id": "ing_023",
+            "quantity_required": 0.85,
+            "unit": "lb",
+            "id": "menu_006_ing_023",
+            "menu_item_id": "menu_006"
+          },
+          {
+            "ingredient_id": "ing_024",
+            "quantity_required": 2.5,
+            "unit": "fl_oz",
+            "id": "menu_006_ing_024",
+            "menu_item_id": "menu_006"
+          },
+          {
+            "ingredient_id": "ing_025",
+            "quantity_required": 0.2,
+            "unit": "lb",
+            "id": "menu_006_ing_025",
+            "menu_item_id": "menu_006"
+          }
+        ],
+        "category": "Unspecified",
+        "is_active": true,
+        "calculated_cost": 6.36,
+        "current_margin_percent": 69.7
+      },
+      "calculatedCost": 6.36,
+      "marginPercent": 69.7,
+      "targetMarginPercent": 60,
+      "isMarginHealthy": true,
+      "costBreakdown": [
+        {
+          "ingredient_name": "Pork Ribs",
+          "qty": 0.85,
+          "unit": "lb",
+          "unit_cost": 6.4,
+          "portion_cost": 5.44
+        },
+        {
+          "ingredient_name": "BBQ Sauce",
+          "qty": 2.5,
+          "unit": "fl_oz",
+          "unit_cost": 0.22,
+          "portion_cost": 0.55
+        },
+        {
+          "ingredient_name": "Coleslaw Mix",
+          "qty": 0.2,
+          "unit": "lb",
+          "unit_cost": 1.85,
+          "portion_cost": 0.37
+        }
+      ]
+    },
+    {
+      "menuItem": {
+        "id": "menu_007",
+        "restaurant_id": "rest_demo_001",
+        "name": "Black Truffle Risotto",
+        "selling_price": 28,
+        "target_margin_percent": 55,
+        "recipes": [
+          {
+            "ingredient_id": "ing_026",
+            "quantity_required": 0.35,
+            "unit": "lb",
+            "id": "menu_007_ing_026",
+            "menu_item_id": "menu_007"
+          },
+          {
+            "ingredient_id": "ing_027",
+            "quantity_required": 0.4,
+            "unit": "oz",
+            "id": "menu_007_ing_027",
+            "menu_item_id": "menu_007"
+          },
+          {
+            "ingredient_id": "ing_012",
+            "quantity_required": 0.1,
+            "unit": "lb",
+            "id": "menu_007_ing_012",
+            "menu_item_id": "menu_007"
+          },
+          {
+            "ingredient_id": "ing_019",
+            "quantity_required": 0.06,
+            "unit": "lb",
+            "id": "menu_007_ing_019",
+            "menu_item_id": "menu_007"
+          },
+          {
+            "ingredient_id": "ing_028",
+            "quantity_required": 1.5,
+            "unit": "fl_oz",
+            "id": "menu_007_ing_028",
+            "menu_item_id": "menu_007"
+          },
+          {
+            "ingredient_id": "ing_029",
+            "quantity_required": 4,
+            "unit": "fl_oz",
+            "id": "menu_007_ing_029",
+            "menu_item_id": "menu_007"
+          }
+        ],
+        "category": "Unspecified",
+        "is_active": true,
+        "calculated_cost": 11.38,
+        "current_margin_percent": 59.4
+      },
+      "calculatedCost": 11.38,
+      "marginPercent": 59.4,
+      "targetMarginPercent": 55,
+      "isMarginHealthy": true,
+      "costBreakdown": [
+        {
+          "ingredient_name": "Arborio Rice",
+          "qty": 0.35,
+          "unit": "lb",
+          "unit_cost": 3.8,
+          "portion_cost": 1.33
+        },
+        {
+          "ingredient_name": "Black Truffle (Fresh)",
+          "qty": 0.4,
+          "unit": "oz",
+          "unit_cost": 19.5,
+          "portion_cost": 7.8
+        },
+        {
+          "ingredient_name": "Parmesan Cheese",
+          "qty": 0.1,
+          "unit": "lb",
+          "unit_cost": 8.5,
+          "portion_cost": 0.85
+        },
+        {
+          "ingredient_name": "Butter",
+          "qty": 0.06,
+          "unit": "lb",
+          "unit_cost": 4.1,
+          "portion_cost": 0.246
+        },
+        {
+          "ingredient_name": "White Wine (Cooking)",
+          "qty": 1.5,
+          "unit": "fl_oz",
+          "unit_cost": 0.45,
+          "portion_cost": 0.675
+        },
+        {
+          "ingredient_name": "Vegetable Stock",
+          "qty": 4,
+          "unit": "fl_oz",
+          "unit_cost": 0.12,
+          "portion_cost": 0.48
+        }
+      ]
+    },
+    {
+      "menuItem": {
+        "id": "menu_008",
+        "restaurant_id": "rest_demo_001",
+        "name": "Buffalo Wings (1lb)",
+        "selling_price": 15.5,
+        "target_margin_percent": 66,
+        "recipes": [
+          {
+            "ingredient_id": "ing_030",
+            "quantity_required": 1,
+            "unit": "lb",
+            "id": "menu_008_ing_030",
+            "menu_item_id": "menu_008"
+          },
+          {
+            "ingredient_id": "ing_031",
+            "quantity_required": 2.5,
+            "unit": "fl_oz",
+            "id": "menu_008_ing_031",
+            "menu_item_id": "menu_008"
+          },
+          {
+            "ingredient_id": "ing_032",
+            "quantity_required": 0.1,
+            "unit": "lb",
+            "id": "menu_008_ing_032",
+            "menu_item_id": "menu_008"
+          },
+          {
+            "ingredient_id": "ing_033",
+            "quantity_required": 2,
+            "unit": "fl_oz",
+            "id": "menu_008_ing_033",
+            "menu_item_id": "menu_008"
+          }
+        ],
+        "category": "Unspecified",
+        "is_active": true,
+        "calculated_cost": 5.09,
+        "current_margin_percent": 67.2
+      },
+      "calculatedCost": 5.09,
+      "marginPercent": 67.2,
+      "targetMarginPercent": 66,
+      "isMarginHealthy": true,
+      "costBreakdown": [
+        {
+          "ingredient_name": "Chicken Wings",
+          "qty": 1,
+          "unit": "lb",
+          "unit_cost": 3.4,
+          "portion_cost": 3.4
+        },
+        {
+          "ingredient_name": "Buffalo Sauce",
+          "qty": 2.5,
+          "unit": "fl_oz",
+          "unit_cost": 0.3,
+          "portion_cost": 0.75
+        },
+        {
+          "ingredient_name": "Celery",
+          "qty": 0.1,
+          "unit": "lb",
+          "unit_cost": 1.4,
+          "portion_cost": 0.14
+        },
+        {
+          "ingredient_name": "Blue Cheese Dip",
+          "qty": 2,
+          "unit": "fl_oz",
+          "unit_cost": 0.4,
+          "portion_cost": 0.8
+        }
+      ]
+    },
+    {
+      "menuItem": {
+        "id": "menu_009",
+        "restaurant_id": "rest_demo_001",
+        "name": "Veggie Hummus Wrap",
+        "selling_price": 11.5,
+        "target_margin_percent": 70,
+        "recipes": [
+          {
+            "ingredient_id": "ing_034",
+            "quantity_required": 1,
+            "unit": "pcs",
+            "id": "menu_009_ing_034",
+            "menu_item_id": "menu_009"
+          },
+          {
+            "ingredient_id": "ing_035",
+            "quantity_required": 0.2,
+            "unit": "lb",
+            "id": "menu_009_ing_035",
+            "menu_item_id": "menu_009"
+          },
+          {
+            "ingredient_id": "ing_036",
+            "quantity_required": 0.25,
+            "unit": "lb",
+            "id": "menu_009_ing_036",
+            "menu_item_id": "menu_009"
+          },
+          {
+            "ingredient_id": "ing_037",
+            "quantity_required": 0.08,
+            "unit": "lb",
+            "id": "menu_009_ing_037",
+            "menu_item_id": "menu_009"
+          }
+        ],
+        "category": "Unspecified",
+        "is_active": true,
+        "calculated_cost": 1.9,
+        "current_margin_percent": 83.5
+      },
+      "calculatedCost": 1.9,
+      "marginPercent": 83.5,
+      "targetMarginPercent": 70,
+      "isMarginHealthy": true,
+      "costBreakdown": [
+        {
+          "ingredient_name": "Tortilla Wrap",
+          "qty": 1,
+          "unit": "pcs",
+          "unit_cost": 0.38,
+          "portion_cost": 0.38
+        },
+        {
+          "ingredient_name": "Hummus",
+          "qty": 0.2,
+          "unit": "lb",
+          "unit_cost": 2.6,
+          "portion_cost": 0.52
+        },
+        {
+          "ingredient_name": "Mixed Vegetables",
+          "qty": 0.25,
+          "unit": "lb",
+          "unit_cost": 2.1,
+          "portion_cost": 0.525
+        },
+        {
+          "ingredient_name": "Feta Cheese",
+          "qty": 0.08,
+          "unit": "lb",
+          "unit_cost": 5.9,
+          "portion_cost": 0.472
+        }
+      ]
+    },
+    {
+      "menuItem": {
+        "id": "menu_010",
+        "restaurant_id": "rest_demo_001",
+        "name": "Chocolate Lava Cake",
+        "selling_price": 9.5,
+        "target_margin_percent": 72,
+        "recipes": [
+          {
+            "ingredient_id": "ing_038",
+            "quantity_required": 0.12,
+            "unit": "lb",
+            "id": "menu_010_ing_038",
+            "menu_item_id": "menu_010"
+          },
+          {
+            "ingredient_id": "ing_019",
+            "quantity_required": 0.06,
+            "unit": "lb",
+            "id": "menu_010_ing_019",
+            "menu_item_id": "menu_010"
+          },
+          {
+            "ingredient_id": "ing_039",
+            "quantity_required": 1,
+            "unit": "pcs",
+            "id": "menu_010_ing_039",
+            "menu_item_id": "menu_010"
+          },
+          {
+            "ingredient_id": "ing_040",
+            "quantity_required": 0.08,
+            "unit": "lb",
+            "id": "menu_010_ing_040",
+            "menu_item_id": "menu_010"
+          },
+          {
+            "ingredient_id": "ing_041",
+            "quantity_required": 0.06,
+            "unit": "lb",
+            "id": "menu_010_ing_041",
+            "menu_item_id": "menu_010"
+          }
+        ],
+        "category": "Unspecified",
+        "is_active": true,
+        "calculated_cost": 1.44,
+        "current_margin_percent": 84.8
+      },
+      "calculatedCost": 1.44,
+      "marginPercent": 84.8,
+      "targetMarginPercent": 72,
+      "isMarginHealthy": true,
+      "costBreakdown": [
+        {
+          "ingredient_name": "Dark Chocolate",
+          "qty": 0.12,
+          "unit": "lb",
+          "unit_cost": 6.8,
+          "portion_cost": 0.816
+        },
+        {
+          "ingredient_name": "Butter",
+          "qty": 0.06,
+          "unit": "lb",
+          "unit_cost": 4.1,
+          "portion_cost": 0.246
+        },
+        {
+          "ingredient_name": "Eggs",
+          "qty": 1,
+          "unit": "pcs",
+          "unit_cost": 0.28,
+          "portion_cost": 0.28
+        },
+        {
+          "ingredient_name": "Sugar",
+          "qty": 0.08,
+          "unit": "lb",
+          "unit_cost": 0.75,
+          "portion_cost": 0.06
+        },
+        {
+          "ingredient_name": "Flour",
+          "qty": 0.06,
+          "unit": "lb",
+          "unit_cost": 0.6,
+          "portion_cost": 0.036
+        }
+      ]
+    }
+  ],
+  "demandOnlyForecast": {
+    "asOf": "2026-07-18T23:59:59.999Z",
+    "targetDate": "2026-07-19",
+    "predictions": [
+      {
+        "menuItemId": "menu_001",
+        "menuItemName": "Classic Cheeseburger",
+        "projectedUnits": 48,
+        "confidence": "high",
+        "recordsUsed": 6,
+        "explanation": "Used last matching weekday sales for Classic Cheeseburger across 6 record(s)."
+      },
+      {
+        "menuItemId": "menu_002",
+        "menuItemName": "Margherita Pizza",
+        "projectedUnits": 37,
+        "confidence": "high",
+        "recordsUsed": 6,
+        "explanation": "Used last matching weekday sales for Margherita Pizza across 6 record(s)."
+      },
+      {
+        "menuItemId": "menu_003",
+        "menuItemName": "Caesar Salad",
+        "projectedUnits": 26,
+        "confidence": "high",
+        "recordsUsed": 6,
+        "explanation": "Used last matching weekday sales for Caesar Salad across 6 record(s)."
+      },
+      {
+        "menuItemId": "menu_004",
+        "menuItemName": "Grilled Salmon",
+        "projectedUnits": 17,
+        "confidence": "high",
+        "recordsUsed": 6,
+        "explanation": "Used last matching weekday sales for Grilled Salmon across 6 record(s)."
+      },
+      {
+        "menuItemId": "menu_005",
+        "menuItemName": "Fettuccine Alfredo",
+        "projectedUnits": 21,
+        "confidence": "high",
+        "recordsUsed": 6,
+        "explanation": "Used last matching weekday sales for Fettuccine Alfredo across 6 record(s)."
+      },
+      {
+        "menuItemId": "menu_006",
+        "menuItemName": "BBQ Ribs (Half Rack)",
+        "projectedUnits": 20,
+        "confidence": "high",
+        "recordsUsed": 6,
+        "explanation": "Used last matching weekday sales for BBQ Ribs (Half Rack) across 6 record(s)."
+      },
+      {
+        "menuItemId": "menu_007",
+        "menuItemName": "Black Truffle Risotto",
+        "projectedUnits": 7,
+        "confidence": "high",
+        "recordsUsed": 6,
+        "explanation": "Used last matching weekday sales for Black Truffle Risotto across 6 record(s)."
+      },
+      {
+        "menuItemId": "menu_008",
+        "menuItemName": "Buffalo Wings (1lb)",
+        "projectedUnits": 29,
+        "confidence": "high",
+        "recordsUsed": 6,
+        "explanation": "Used last matching weekday sales for Buffalo Wings (1lb) across 6 record(s)."
+      },
+      {
+        "menuItemId": "menu_009",
+        "menuItemName": "Veggie Hummus Wrap",
+        "projectedUnits": 19,
+        "confidence": "high",
+        "recordsUsed": 6,
+        "explanation": "Used last matching weekday sales for Veggie Hummus Wrap across 6 record(s)."
+      },
+      {
+        "menuItemId": "menu_010",
+        "menuItemName": "Chocolate Lava Cake",
+        "projectedUnits": 25,
+        "confidence": "high",
+        "recordsUsed": 6,
+        "explanation": "Used last matching weekday sales for Chocolate Lava Cake across 6 record(s)."
+      }
+    ],
+    "totalUnits": 249,
+    "revenue": 3897
+  },
+  "backtestSummary": {
+    "testStart": "2026-07-05",
+    "lastDate": "2026-07-18",
+    "candidate": {
+      "windows": 140,
+      "mae": 2.1,
+      "wape": 0.09032258064516129,
+      "bias": -0.02857142857142857
+    },
+    "weekdayBaseline": {
+      "windows": 140,
+      "mae": 2.8214285714285716,
+      "wape": 0.12135176651305683,
+      "bias": 0.35
+    }
+  },
+  "limitations": [
+    "Owner confirms all data is fabricated.",
+    "Full 120-day export not received.",
+    "Recipe quantities assumed in their ingredient units. Supplier packs, reorder thresholds and substitute portion sizes are not supplied. min_threshold=0 is a technical default, not an owner-defined reorder threshold.",
+    "Fractional pcs values are preserved as supplied; whole-piece purchasing needs reconciliation.",
+    "Forecast uses the last complete supplied date, not September current operations. September stock is not mixed into July purchasing estimates.",
+    "No live AI answer or production import is claimed."
+  ]
+}

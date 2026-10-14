@@ -1,0 +1,84 @@
+{
+  "purityViolationTrap": {
+    "session": {
+      "restaurant_name": "Vegan Paradise",
+      "zip_code": "90210",
+      "cuisine_type": "Pure Vegetarian",
+      "user_name": "Manager",
+      "is_authenticated": true
+    },
+    "orderItems": [
+      { "ingredient": "Vegetable Broth", "quantity": "10 x 1 gal", "baselinePrice": 5.00, "currentPrice": 8.00 }
+    ],
+    "priceSpike": true
+  },
+  "categoryLockTrap": {
+    "session": {
+      "restaurant_name": "Burger Joint",
+      "zip_code": "90210",
+      "cuisine_type": "American",
+      "user_name": "Manager",
+      "is_authenticated": true
+    },
+    "orderItems": [
+      { "ingredient": "Canola Oil", "quantity": "5 x 35 lb", "baselinePrice": 20.00, "currentPrice": 30.00 }
+    ],
+    "priceSpike": true
+  },
+  "qualityDowngradeTrap": {
+    "session": {
+      "restaurant_name": "Steakhouse",
+      "zip_code": "90210",
+      "cuisine_type": "American",
+      "user_name": "Manager",
+      "is_authenticated": true
+    },
+    "orderItems": [
+      { "ingredient": "Prime Ribeye", "quantity": "50 lb", "baselinePrice": 15.00, "currentPrice": 25.00 }
+    ],
+    "priceSpike": true
+  },
+  "zeroSpikeMultiVendor": {
+    "session": {
+      "restaurant_name": "Diner",
+      "zip_code": "90210",
+      "cuisine_type": "American",
+      "user_name": "Manager",
+      "is_authenticated": true
+    },
+    "orderItems": [
+      { "ingredient": "Flour", "quantity": "5 x 50 lb", "baselinePrice": 10.00, "currentPrice": 10.00 },
+      { "ingredient": "Sugar", "quantity": "2 x 50 lb", "baselinePrice": 20.00, "currentPrice": 20.00 }
+    ],
+    "priceSpike": false
+  },
+  "mathPrecisionTrap": {
+    "session": {
+      "restaurant_name": "Pizza Place",
+      "zip_code": "90210",
+      "cuisine_type": "Italian",
+      "user_name": "Manager",
+      "is_authenticated": true
+    },
+    "orderItems": [
+      { "ingredient": "Mozzarella", "quantity": "10 x 5 lb", "baselinePrice": 16.00, "currentPrice": 20.00 }
+    ],
+    "expectedSavings": 40.00,
+    "priceSpike": true
+  },
+  "malformedSessionTrap": {
+    "orderItems": [],
+    "priceSpike": false
+  },
+  "emptyOrderTrap": {
+    "session": {
+      "restaurant_name": "Empty Test",
+      "zip_code": "90210",
+      "cuisine_type": "None",
+      "user_name": "Manager",
+      "is_authenticated": true
+    },
+    "orderItems": [],
+    "priceSpike": false
+  }
+}

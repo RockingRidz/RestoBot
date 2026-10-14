@@ -1,0 +1,1297 @@
+{
+  "testStart": "2026-07-05",
+  "horizonDays": 1,
+  "dateBasis": "UTC calendar dates",
+  "skippedWindows": 0,
+  "candidate": {
+    "windows": 140,
+    "mae": 2.1,
+    "wape": 0.09032258064516129,
+    "bias": -0.02857142857142857
+  },
+  "weekdayBaseline": {
+    "windows": 140,
+    "mae": 2.8214285714285716,
+    "wape": 0.12135176651305683,
+    "bias": 0.35
+  },
+  "byItem": [
+    {
+      "item": "classic cheeseburger",
+      "candidate": {
+        "windows": 14,
+        "mae": 3.7142857142857144,
+        "wape": 0.0851063829787234,
+        "bias": 0.5714285714285714
+      },
+      "weekdayBaseline": {
+        "windows": 14,
+        "mae": 4.857142857142857,
+        "wape": 0.11129296235679215,
+        "bias": 2.4285714285714284
+      }
+    },
+    {
+      "item": "margherita pizza",
+      "candidate": {
+        "windows": 14,
+        "mae": 3.2142857142857144,
+        "wape": 0.09453781512605042,
+        "bias": 0.21428571428571427
+      },
+      "weekdayBaseline": {
+        "windows": 14,
+        "mae": 4.214285714285714,
+        "wape": 0.12394957983193278,
+        "bias": 0.6428571428571429
+      }
+    },
+    {
+      "item": "caesar salad",
+      "candidate": {
+        "windows": 14,
+        "mae": 1.3571428571428572,
+        "wape": 0.05491329479768786,
+        "bias": 0.6428571428571429
+      },
+      "weekdayBaseline": {
+        "windows": 14,
+        "mae": 2.5714285714285716,
+        "wape": 0.10404624277456648,
+        "bias": 0.2857142857142857
+      }
+    },
+    {
+      "item": "grilled salmon",
+      "candidate": {
+        "windows": 14,
+        "mae": 1.7142857142857142,
+        "wape": 0.10434782608695652,
+        "bias": -0.14285714285714285
+      },
+      "weekdayBaseline": {
+        "windows": 14,
+        "mae": 2.4285714285714284,
+        "wape": 0.14782608695652175,
+        "bias": -0.14285714285714285
+      }
+    },
+    {
+      "item": "fettuccine alfredo",
+      "candidate": {
+        "windows": 14,
+        "mae": 2.142857142857143,
+        "wape": 0.10380622837370242,
+        "bias": -0.5714285714285714
+      },
+      "weekdayBaseline": {
+        "windows": 14,
+        "mae": 2.2857142857142856,
+        "wape": 0.11072664359861592,
+        "bias": 0
+      }
+    },
+    {
+      "item": "bbq ribs (half rack)",
+      "candidate": {
+        "windows": 14,
+        "mae": 2.5,
+        "wape": 0.13618677042801555,
+        "bias": -0.35714285714285715
+      },
+      "weekdayBaseline": {
+        "windows": 14,
+        "mae": 3.2142857142857144,
+        "wape": 0.17509727626459143,
+        "bias": -0.7857142857142857
+      }
+    },
+    {
+      "item": "black truffle risotto",
+      "candidate": {
+        "windows": 14,
+        "mae": 0.7142857142857143,
+        "wape": 0.10752688172043011,
+        "bias": 0.42857142857142855
+      },
+      "weekdayBaseline": {
+        "windows": 14,
+        "mae": 0.8571428571428571,
+        "wape": 0.12903225806451613,
+        "bias": 0.14285714285714285
+      }
+    },
+    {
+      "item": "buffalo wings (1lb)",
+      "candidate": {
+        "windows": 14,
+        "mae": 2.0714285714285716,
+        "wape": 0.07552083333333333,
+        "bias": -0.35714285714285715
+      },
+      "weekdayBaseline": {
+        "windows": 14,
+        "mae": 2.5714285714285716,
+        "wape": 0.09375,
+        "bias": 0.2857142857142857
+      }
+    },
+    {
+      "item": "veggie hummus wrap",
+      "candidate": {
+        "windows": 14,
+        "mae": 1.7142857142857142,
+        "wape": 0.0967741935483871,
+        "bias": -0.8571428571428571
+      },
+      "weekdayBaseline": {
+        "windows": 14,
+        "mae": 2.5714285714285716,
+        "wape": 0.14516129032258066,
+        "bias": -0.42857142857142855
+      }
+    },
+    {
+      "item": "chocolate lava cake",
+      "candidate": {
+        "windows": 14,
+        "mae": 1.8571428571428572,
+        "wape": 0.08099688473520249,
+        "bias": 0.14285714285714285
+      },
+      "weekdayBaseline": {
+        "windows": 14,
+        "mae": 2.642857142857143,
+        "wape": 0.11526479750778816,
+        "bias": 1.0714285714285714
+      }
+    }
+  ],
+  "results": [
+    {
+      "item": "classic cheeseburger",
+      "origin": "2026-07-04T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 50,
+      "predicted": 47,
+      "baseline": 52
+    },
+    {
+      "item": "classic cheeseburger",
+      "origin": "2026-07-05T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 39,
+      "predicted": 36,
+      "baseline": 38
+    },
+    {
+      "item": "classic cheeseburger",
+      "origin": "2026-07-06T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 31,
+      "predicted": 33,
+      "baseline": 35
+    },
+    {
+      "item": "classic cheeseburger",
+      "origin": "2026-07-07T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 40,
+      "predicted": 39,
+      "baseline": 40
+    },
+    {
+      "item": "classic cheeseburger",
+      "origin": "2026-07-08T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 39,
+      "predicted": 40,
+      "baseline": 47
+    },
+    {
+      "item": "classic cheeseburger",
+      "origin": "2026-07-09T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 47,
+      "predicted": 56,
+      "baseline": 58
+    },
+    {
+      "item": "classic cheeseburger",
+      "origin": "2026-07-10T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 66,
+      "predicted": 58,
+      "baseline": 63
+    },
+    {
+      "item": "classic cheeseburger",
+      "origin": "2026-07-11T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 53,
+      "predicted": 48,
+      "baseline": 50
+    },
+    {
+      "item": "classic cheeseburger",
+      "origin": "2026-07-12T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 29,
+      "predicted": 36,
+      "baseline": 39
+    },
+    {
+      "item": "classic cheeseburger",
+      "origin": "2026-07-13T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 31,
+      "predicted": 33,
+      "baseline": 31
+    },
+    {
+      "item": "classic cheeseburger",
+      "origin": "2026-07-14T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 35,
+      "predicted": 39,
+      "baseline": 40
+    },
+    {
+      "item": "classic cheeseburger",
+      "origin": "2026-07-15T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 37,
+      "predicted": 40,
+      "baseline": 39
+    },
+    {
+      "item": "classic cheeseburger",
+      "origin": "2026-07-16T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 57,
+      "predicted": 55,
+      "baseline": 47
+    },
+    {
+      "item": "classic cheeseburger",
+      "origin": "2026-07-17T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 57,
+      "predicted": 59,
+      "baseline": 66
+    },
+    {
+      "item": "margherita pizza",
+      "origin": "2026-07-04T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 34,
+      "predicted": 36,
+      "baseline": 32
+    },
+    {
+      "item": "margherita pizza",
+      "origin": "2026-07-05T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 28,
+      "predicted": 27,
+      "baseline": 31
+    },
+    {
+      "item": "margherita pizza",
+      "origin": "2026-07-06T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 23,
+      "predicted": 25,
+      "baseline": 23
+    },
+    {
+      "item": "margherita pizza",
+      "origin": "2026-07-07T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 31,
+      "predicted": 27,
+      "baseline": 25
+    },
+    {
+      "item": "margherita pizza",
+      "origin": "2026-07-08T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 33,
+      "predicted": 32,
+      "baseline": 32
+    },
+    {
+      "item": "margherita pizza",
+      "origin": "2026-07-09T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 42,
+      "predicted": 42,
+      "baseline": 40
+    },
+    {
+      "item": "margherita pizza",
+      "origin": "2026-07-10T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 58,
+      "predicted": 49,
+      "baseline": 53
+    },
+    {
+      "item": "margherita pizza",
+      "origin": "2026-07-11T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 40,
+      "predicted": 36,
+      "baseline": 34
+    },
+    {
+      "item": "margherita pizza",
+      "origin": "2026-07-12T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 25,
+      "predicted": 27,
+      "baseline": 28
+    },
+    {
+      "item": "margherita pizza",
+      "origin": "2026-07-13T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 26,
+      "predicted": 24,
+      "baseline": 23
+    },
+    {
+      "item": "margherita pizza",
+      "origin": "2026-07-14T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 24,
+      "predicted": 28,
+      "baseline": 31
+    },
+    {
+      "item": "margherita pizza",
+      "origin": "2026-07-15T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 29,
+      "predicted": 33,
+      "baseline": 33
+    },
+    {
+      "item": "margherita pizza",
+      "origin": "2026-07-16T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 36,
+      "predicted": 42,
+      "baseline": 42
+    },
+    {
+      "item": "margherita pizza",
+      "origin": "2026-07-17T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 47,
+      "predicted": 51,
+      "baseline": 58
+    },
+    {
+      "item": "caesar salad",
+      "origin": "2026-07-04T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 25,
+      "predicted": 26,
+      "baseline": 24
+    },
+    {
+      "item": "caesar salad",
+      "origin": "2026-07-05T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 18,
+      "predicted": 20,
+      "baseline": 22
+    },
+    {
+      "item": "caesar salad",
+      "origin": "2026-07-06T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 18,
+      "predicted": 18,
+      "baseline": 20
+    },
+    {
+      "item": "caesar salad",
+      "origin": "2026-07-07T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 22,
+      "predicted": 21,
+      "baseline": 17
+    },
+    {
+      "item": "caesar salad",
+      "origin": "2026-07-08T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 21,
+      "predicted": 24,
+      "baseline": 27
+    },
+    {
+      "item": "caesar salad",
+      "origin": "2026-07-09T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 28,
+      "predicted": 32,
+      "baseline": 32
+    },
+    {
+      "item": "caesar salad",
+      "origin": "2026-07-10T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 37,
+      "predicted": 37,
+      "baseline": 39
+    },
+    {
+      "item": "caesar salad",
+      "origin": "2026-07-11T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 27,
+      "predicted": 26,
+      "baseline": 25
+    },
+    {
+      "item": "caesar salad",
+      "origin": "2026-07-12T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 18,
+      "predicted": 19,
+      "baseline": 18
+    },
+    {
+      "item": "caesar salad",
+      "origin": "2026-07-13T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 18,
+      "predicted": 18,
+      "baseline": 18
+    },
+    {
+      "item": "caesar salad",
+      "origin": "2026-07-14T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 20,
+      "predicted": 22,
+      "baseline": 22
+    },
+    {
+      "item": "caesar salad",
+      "origin": "2026-07-15T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 23,
+      "predicted": 24,
+      "baseline": 21
+    },
+    {
+      "item": "caesar salad",
+      "origin": "2026-07-16T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 31,
+      "predicted": 31,
+      "baseline": 28
+    },
+    {
+      "item": "caesar salad",
+      "origin": "2026-07-17T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 40,
+      "predicted": 37,
+      "baseline": 37
+    },
+    {
+      "item": "grilled salmon",
+      "origin": "2026-07-04T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 16,
+      "predicted": 18,
+      "baseline": 14
+    },
+    {
+      "item": "grilled salmon",
+      "origin": "2026-07-05T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 13,
+      "predicted": 12,
+      "baseline": 14
+    },
+    {
+      "item": "grilled salmon",
+      "origin": "2026-07-06T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 14,
+      "predicted": 12,
+      "baseline": 10
+    },
+    {
+      "item": "grilled salmon",
+      "origin": "2026-07-07T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 12,
+      "predicted": 14,
+      "baseline": 12
+    },
+    {
+      "item": "grilled salmon",
+      "origin": "2026-07-08T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 16,
+      "predicted": 14,
+      "baseline": 13
+    },
+    {
+      "item": "grilled salmon",
+      "origin": "2026-07-09T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 23,
+      "predicted": 20,
+      "baseline": 20
+    },
+    {
+      "item": "grilled salmon",
+      "origin": "2026-07-10T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 27,
+      "predicted": 24,
+      "baseline": 24
+    },
+    {
+      "item": "grilled salmon",
+      "origin": "2026-07-11T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 16,
+      "predicted": 17,
+      "baseline": 16
+    },
+    {
+      "item": "grilled salmon",
+      "origin": "2026-07-12T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 12,
+      "predicted": 12,
+      "baseline": 13
+    },
+    {
+      "item": "grilled salmon",
+      "origin": "2026-07-13T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 11,
+      "predicted": 12,
+      "baseline": 14
+    },
+    {
+      "item": "grilled salmon",
+      "origin": "2026-07-14T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 15,
+      "predicted": 13,
+      "baseline": 12
+    },
+    {
+      "item": "grilled salmon",
+      "origin": "2026-07-15T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 12,
+      "predicted": 15,
+      "baseline": 16
+    },
+    {
+      "item": "grilled salmon",
+      "origin": "2026-07-16T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 21,
+      "predicted": 21,
+      "baseline": 23
+    },
+    {
+      "item": "grilled salmon",
+      "origin": "2026-07-17T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 22,
+      "predicted": 24,
+      "baseline": 27
+    },
+    {
+      "item": "fettuccine alfredo",
+      "origin": "2026-07-04T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 21,
+      "predicted": 21,
+      "baseline": 24
+    },
+    {
+      "item": "fettuccine alfredo",
+      "origin": "2026-07-05T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 13,
+      "predicted": 16,
+      "baseline": 13
+    },
+    {
+      "item": "fettuccine alfredo",
+      "origin": "2026-07-06T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 17,
+      "predicted": 15,
+      "baseline": 17
+    },
+    {
+      "item": "fettuccine alfredo",
+      "origin": "2026-07-07T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 15,
+      "predicted": 16,
+      "baseline": 16
+    },
+    {
+      "item": "fettuccine alfredo",
+      "origin": "2026-07-08T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 19,
+      "predicted": 20,
+      "baseline": 22
+    },
+    {
+      "item": "fettuccine alfredo",
+      "origin": "2026-07-09T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 26,
+      "predicted": 24,
+      "baseline": 24
+    },
+    {
+      "item": "fettuccine alfredo",
+      "origin": "2026-07-10T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 34,
+      "predicted": 27,
+      "baseline": 28
+    },
+    {
+      "item": "fettuccine alfredo",
+      "origin": "2026-07-11T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 20,
+      "predicted": 21,
+      "baseline": 21
+    },
+    {
+      "item": "fettuccine alfredo",
+      "origin": "2026-07-12T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 17,
+      "predicted": 16,
+      "baseline": 13
+    },
+    {
+      "item": "fettuccine alfredo",
+      "origin": "2026-07-13T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 15,
+      "predicted": 16,
+      "baseline": 17
+    },
+    {
+      "item": "fettuccine alfredo",
+      "origin": "2026-07-14T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 19,
+      "predicted": 16,
+      "baseline": 15
+    },
+    {
+      "item": "fettuccine alfredo",
+      "origin": "2026-07-15T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 18,
+      "predicted": 20,
+      "baseline": 19
+    },
+    {
+      "item": "fettuccine alfredo",
+      "origin": "2026-07-16T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 22,
+      "predicted": 24,
+      "baseline": 26
+    },
+    {
+      "item": "fettuccine alfredo",
+      "origin": "2026-07-17T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 33,
+      "predicted": 29,
+      "baseline": 34
+    },
+    {
+      "item": "bbq ribs (half rack)",
+      "origin": "2026-07-04T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 18,
+      "predicted": 20,
+      "baseline": 22
+    },
+    {
+      "item": "bbq ribs (half rack)",
+      "origin": "2026-07-05T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 13,
+      "predicted": 15,
+      "baseline": 15
+    },
+    {
+      "item": "bbq ribs (half rack)",
+      "origin": "2026-07-06T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 12,
+      "predicted": 14,
+      "baseline": 15
+    },
+    {
+      "item": "bbq ribs (half rack)",
+      "origin": "2026-07-07T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 13,
+      "predicted": 15,
+      "baseline": 17
+    },
+    {
+      "item": "bbq ribs (half rack)",
+      "origin": "2026-07-08T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 15,
+      "predicted": 17,
+      "baseline": 15
+    },
+    {
+      "item": "bbq ribs (half rack)",
+      "origin": "2026-07-09T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 19,
+      "predicted": 22,
+      "baseline": 23
+    },
+    {
+      "item": "bbq ribs (half rack)",
+      "origin": "2026-07-10T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 27,
+      "predicted": 23,
+      "baseline": 22
+    },
+    {
+      "item": "bbq ribs (half rack)",
+      "origin": "2026-07-11T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 21,
+      "predicted": 20,
+      "baseline": 18
+    },
+    {
+      "item": "bbq ribs (half rack)",
+      "origin": "2026-07-12T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 13,
+      "predicted": 15,
+      "baseline": 13
+    },
+    {
+      "item": "bbq ribs (half rack)",
+      "origin": "2026-07-13T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 16,
+      "predicted": 14,
+      "baseline": 12
+    },
+    {
+      "item": "bbq ribs (half rack)",
+      "origin": "2026-07-14T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 18,
+      "predicted": 15,
+      "baseline": 13
+    },
+    {
+      "item": "bbq ribs (half rack)",
+      "origin": "2026-07-15T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 18,
+      "predicted": 17,
+      "baseline": 15
+    },
+    {
+      "item": "bbq ribs (half rack)",
+      "origin": "2026-07-16T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 24,
+      "predicted": 22,
+      "baseline": 19
+    },
+    {
+      "item": "bbq ribs (half rack)",
+      "origin": "2026-07-17T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 30,
+      "predicted": 23,
+      "baseline": 27
+    },
+    {
+      "item": "black truffle risotto",
+      "origin": "2026-07-04T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 6,
+      "predicted": 7,
+      "baseline": 7
+    },
+    {
+      "item": "black truffle risotto",
+      "origin": "2026-07-05T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 5,
+      "predicted": 5,
+      "baseline": 5
+    },
+    {
+      "item": "black truffle risotto",
+      "origin": "2026-07-06T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 4,
+      "predicted": 5,
+      "baseline": 5
+    },
+    {
+      "item": "black truffle risotto",
+      "origin": "2026-07-07T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 5,
+      "predicted": 6,
+      "baseline": 7
+    },
+    {
+      "item": "black truffle risotto",
+      "origin": "2026-07-08T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 7,
+      "predicted": 7,
+      "baseline": 7
+    },
+    {
+      "item": "black truffle risotto",
+      "origin": "2026-07-09T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 8,
+      "predicted": 9,
+      "baseline": 8
+    },
+    {
+      "item": "black truffle risotto",
+      "origin": "2026-07-10T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 11,
+      "predicted": 10,
+      "baseline": 10
+    },
+    {
+      "item": "black truffle risotto",
+      "origin": "2026-07-11T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 8,
+      "predicted": 7,
+      "baseline": 6
+    },
+    {
+      "item": "black truffle risotto",
+      "origin": "2026-07-12T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 5,
+      "predicted": 5,
+      "baseline": 5
+    },
+    {
+      "item": "black truffle risotto",
+      "origin": "2026-07-13T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 5,
+      "predicted": 5,
+      "baseline": 4
+    },
+    {
+      "item": "black truffle risotto",
+      "origin": "2026-07-14T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 6,
+      "predicted": 6,
+      "baseline": 5
+    },
+    {
+      "item": "black truffle risotto",
+      "origin": "2026-07-15T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 6,
+      "predicted": 7,
+      "baseline": 7
+    },
+    {
+      "item": "black truffle risotto",
+      "origin": "2026-07-16T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 8,
+      "predicted": 9,
+      "baseline": 8
+    },
+    {
+      "item": "black truffle risotto",
+      "origin": "2026-07-17T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 9,
+      "predicted": 11,
+      "baseline": 11
+    },
+    {
+      "item": "buffalo wings (1lb)",
+      "origin": "2026-07-04T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 28,
+      "predicted": 28,
+      "baseline": 30
+    },
+    {
+      "item": "buffalo wings (1lb)",
+      "origin": "2026-07-05T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 22,
+      "predicted": 21,
+      "baseline": 25
+    },
+    {
+      "item": "buffalo wings (1lb)",
+      "origin": "2026-07-06T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 20,
+      "predicted": 21,
+      "baseline": 22
+    },
+    {
+      "item": "buffalo wings (1lb)",
+      "origin": "2026-07-07T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 23,
+      "predicted": 21,
+      "baseline": 21
+    },
+    {
+      "item": "buffalo wings (1lb)",
+      "origin": "2026-07-08T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 21,
+      "predicted": 25,
+      "baseline": 23
+    },
+    {
+      "item": "buffalo wings (1lb)",
+      "origin": "2026-07-09T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 39,
+      "predicted": 34,
+      "baseline": 37
+    },
+    {
+      "item": "buffalo wings (1lb)",
+      "origin": "2026-07-10T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 40,
+      "predicted": 39,
+      "baseline": 37
+    },
+    {
+      "item": "buffalo wings (1lb)",
+      "origin": "2026-07-11T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 30,
+      "predicted": 28,
+      "baseline": 28
+    },
+    {
+      "item": "buffalo wings (1lb)",
+      "origin": "2026-07-12T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 23,
+      "predicted": 21,
+      "baseline": 22
+    },
+    {
+      "item": "buffalo wings (1lb)",
+      "origin": "2026-07-13T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 22,
+      "predicted": 21,
+      "baseline": 20
+    },
+    {
+      "item": "buffalo wings (1lb)",
+      "origin": "2026-07-14T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 25,
+      "predicted": 22,
+      "baseline": 23
+    },
+    {
+      "item": "buffalo wings (1lb)",
+      "origin": "2026-07-15T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 23,
+      "predicted": 24,
+      "baseline": 21
+    },
+    {
+      "item": "buffalo wings (1lb)",
+      "origin": "2026-07-16T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 34,
+      "predicted": 35,
+      "baseline": 39
+    },
+    {
+      "item": "buffalo wings (1lb)",
+      "origin": "2026-07-17T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 34,
+      "predicted": 39,
+      "baseline": 40
+    },
+    {
+      "item": "veggie hummus wrap",
+      "origin": "2026-07-04T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 21,
+      "predicted": 18,
+      "baseline": 16
+    },
+    {
+      "item": "veggie hummus wrap",
+      "origin": "2026-07-05T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 14,
+      "predicted": 13,
+      "baseline": 15
+    },
+    {
+      "item": "veggie hummus wrap",
+      "origin": "2026-07-06T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 13,
+      "predicted": 13,
+      "baseline": 12
+    },
+    {
+      "item": "veggie hummus wrap",
+      "origin": "2026-07-07T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 16,
+      "predicted": 14,
+      "baseline": 15
+    },
+    {
+      "item": "veggie hummus wrap",
+      "origin": "2026-07-08T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 17,
+      "predicted": 14,
+      "baseline": 14
+    },
+    {
+      "item": "veggie hummus wrap",
+      "origin": "2026-07-09T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 21,
+      "predicted": 18,
+      "baseline": 17
+    },
+    {
+      "item": "veggie hummus wrap",
+      "origin": "2026-07-10T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 28,
+      "predicted": 25,
+      "baseline": 23
+    },
+    {
+      "item": "veggie hummus wrap",
+      "origin": "2026-07-11T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 19,
+      "predicted": 19,
+      "baseline": 21
+    },
+    {
+      "item": "veggie hummus wrap",
+      "origin": "2026-07-12T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 15,
+      "predicted": 14,
+      "baseline": 14
+    },
+    {
+      "item": "veggie hummus wrap",
+      "origin": "2026-07-13T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 14,
+      "predicted": 13,
+      "baseline": 13
+    },
+    {
+      "item": "veggie hummus wrap",
+      "origin": "2026-07-14T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 15,
+      "predicted": 15,
+      "baseline": 16
+    },
+    {
+      "item": "veggie hummus wrap",
+      "origin": "2026-07-15T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 16,
+      "predicted": 15,
+      "baseline": 17
+    },
+    {
+      "item": "veggie hummus wrap",
+      "origin": "2026-07-16T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 18,
+      "predicted": 19,
+      "baseline": 21
+    },
+    {
+      "item": "veggie hummus wrap",
+      "origin": "2026-07-17T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 21,
+      "predicted": 26,
+      "baseline": 28
+    },
+    {
+      "item": "chocolate lava cake",
+      "origin": "2026-07-04T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 26,
+      "predicted": 25,
+      "baseline": 28
+    },
+    {
+      "item": "chocolate lava cake",
+      "origin": "2026-07-05T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 18,
+      "predicted": 18,
+      "baseline": 20
+    },
+    {
+      "item": "chocolate lava cake",
+      "origin": "2026-07-06T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 16,
+      "predicted": 17,
+      "baseline": 16
+    },
+    {
+      "item": "chocolate lava cake",
+      "origin": "2026-07-07T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 16,
+      "predicted": 19,
+      "baseline": 18
+    },
+    {
+      "item": "chocolate lava cake",
+      "origin": "2026-07-08T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 23,
+      "predicted": 19,
+      "baseline": 20
+    },
+    {
+      "item": "chocolate lava cake",
+      "origin": "2026-07-09T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 32,
+      "predicted": 29,
+      "baseline": 33
+    },
+    {
+      "item": "chocolate lava cake",
+      "origin": "2026-07-10T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 33,
+      "predicted": 34,
+      "baseline": 37
+    },
+    {
+      "item": "chocolate lava cake",
+      "origin": "2026-07-11T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 22,
+      "predicted": 25,
+      "baseline": 26
+    },
+    {
+      "item": "chocolate lava cake",
+      "origin": "2026-07-12T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 15,
+      "predicted": 18,
+      "baseline": 18
+    },
+    {
+      "item": "chocolate lava cake",
+      "origin": "2026-07-13T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 19,
+      "predicted": 17,
+      "baseline": 16
+    },
+    {
+      "item": "chocolate lava cake",
+      "origin": "2026-07-14T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 20,
+      "predicted": 18,
+      "baseline": 16
+    },
+    {
+      "item": "chocolate lava cake",
+      "origin": "2026-07-15T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 19,
+      "predicted": 20,
+      "baseline": 23
+    },
+    {
+      "item": "chocolate lava cake",
+      "origin": "2026-07-16T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 28,
+      "predicted": 30,
+      "baseline": 32
+    },
+    {
+      "item": "chocolate lava cake",
+      "origin": "2026-07-17T23:59:59.999Z",
+      "horizonDays": 1,
+      "actual": 34,
+      "predicted": 34,
+      "baseline": 33
+    }
+  ],
+  "warnings": [
+    "Daily observations must include explicitly confirmed zero-sales days. Missing days are skipped, not imputed.",
+    "Rolling-origin evaluation uses only history available at each origin; overlapping horizons are not independent.",
+    "WAPE is a ratio and is null when actual demand is zero. This report is not an accuracy or launch certification."
+  ]
+}

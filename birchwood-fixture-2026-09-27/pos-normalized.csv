@@ -1,0 +1,500 @@
+id,restaurant_id,order_id,item_name,menu_item_id,quantity_sold,unit_price,total_amount,sold_at
+sale_000001,rest_demo_001,ord_000001,Classic Cheeseburger,menu_001,49,14.5,710.5,2026-05-31T19:30:00-04:00
+sale_000002,rest_demo_001,ord_000002,Margherita Pizza,menu_002,37,16,592,2026-05-31T19:30:00-04:00
+sale_000003,rest_demo_001,ord_000003,Caesar Salad,menu_003,26,12,312,2026-05-31T19:30:00-04:00
+sale_000004,rest_demo_001,ord_000004,Grilled Salmon,menu_004,19,24,456,2026-05-31T19:30:00-04:00
+sale_000005,rest_demo_001,ord_000005,Fettuccine Alfredo,menu_005,20,17.5,350,2026-05-31T19:30:00-04:00
+sale_000006,rest_demo_001,ord_000006,BBQ Ribs (Half Rack),menu_006,19,21,399,2026-05-31T19:30:00-04:00
+sale_000007,rest_demo_001,ord_000007,Black Truffle Risotto,menu_007,8,28,224,2026-05-31T19:30:00-04:00
+sale_000008,rest_demo_001,ord_000008,Buffalo Wings (1lb),menu_008,29,15.5,449.5,2026-05-31T19:30:00-04:00
+sale_000009,rest_demo_001,ord_000009,Veggie Hummus Wrap,menu_009,19,11.5,218.5,2026-05-31T19:30:00-04:00
+sale_000010,rest_demo_001,ord_000010,Chocolate Lava Cake,menu_010,24,9.5,228,2026-05-31T19:30:00-04:00
+sale_000011,rest_demo_001,ord_000011,Classic Cheeseburger,menu_001,35,14.5,507.5,2026-06-01T19:30:00-04:00
+sale_000012,rest_demo_001,ord_000012,Margherita Pizza,menu_002,21,16,336,2026-06-01T19:30:00-04:00
+sale_000013,rest_demo_001,ord_000013,Caesar Salad,menu_003,17,12,204,2026-06-01T19:30:00-04:00
+sale_000014,rest_demo_001,ord_000014,Grilled Salmon,menu_004,11,24,264,2026-06-01T19:30:00-04:00
+sale_000015,rest_demo_001,ord_000015,Fettuccine Alfredo,menu_005,13,17.5,227.5,2026-06-01T19:30:00-04:00
+sale_000016,rest_demo_001,ord_000016,BBQ Ribs (Half Rack),menu_006,12,21,252,2026-06-01T19:30:00-04:00
+sale_000017,rest_demo_001,ord_000017,Black Truffle Risotto,menu_007,4,28,112,2026-06-01T19:30:00-04:00
+sale_000018,rest_demo_001,ord_000018,Buffalo Wings (1lb),menu_008,19,15.5,294.5,2026-06-01T19:30:00-04:00
+sale_000019,rest_demo_001,ord_000019,Veggie Hummus Wrap,menu_009,13,11.5,149.5,2026-06-01T19:30:00-04:00
+sale_000020,rest_demo_001,ord_000020,Chocolate Lava Cake,menu_010,16,9.5,152,2026-06-01T19:30:00-04:00
+sale_000021,rest_demo_001,ord_000021,Classic Cheeseburger,menu_001,29,14.5,420.5,2026-06-02T19:30:00-04:00
+sale_000022,rest_demo_001,ord_000022,Margherita Pizza,menu_002,22,16,352,2026-06-02T19:30:00-04:00
+sale_000023,rest_demo_001,ord_000023,Caesar Salad,menu_003,16,12,192,2026-06-02T19:30:00-04:00
+sale_000024,rest_demo_001,ord_000024,Grilled Salmon,menu_004,13,24,312,2026-06-02T19:30:00-04:00
+sale_000025,rest_demo_001,ord_000025,Fettuccine Alfredo,menu_005,15,17.5,262.5,2026-06-02T19:30:00-04:00
+sale_000026,rest_demo_001,ord_000026,BBQ Ribs (Half Rack),menu_006,13,21,273,2026-06-02T19:30:00-04:00
+sale_000027,rest_demo_001,ord_000027,Black Truffle Risotto,menu_007,4,28,112,2026-06-02T19:30:00-04:00
+sale_000028,rest_demo_001,ord_000028,Buffalo Wings (1lb),menu_008,21,15.5,325.5,2026-06-02T19:30:00-04:00
+sale_000029,rest_demo_001,ord_000029,Veggie Hummus Wrap,menu_009,11,11.5,126.5,2026-06-02T19:30:00-04:00
+sale_000030,rest_demo_001,ord_000030,Chocolate Lava Cake,menu_010,15,9.5,142.5,2026-06-02T19:30:00-04:00
+sale_000031,rest_demo_001,ord_000031,Classic Cheeseburger,menu_001,40,14.5,580,2026-06-03T19:30:00-04:00
+sale_000032,rest_demo_001,ord_000032,Margherita Pizza,menu_002,28,16,448,2026-06-03T19:30:00-04:00
+sale_000033,rest_demo_001,ord_000033,Caesar Salad,menu_003,20,12,240,2026-06-03T19:30:00-04:00
+sale_000034,rest_demo_001,ord_000034,Grilled Salmon,menu_004,13,24,312,2026-06-03T19:30:00-04:00
+sale_000035,rest_demo_001,ord_000035,Fettuccine Alfredo,menu_005,18,17.5,315,2026-06-03T19:30:00-04:00
+sale_000036,rest_demo_001,ord_000036,BBQ Ribs (Half Rack),menu_006,16,21,336,2026-06-03T19:30:00-04:00
+sale_000037,rest_demo_001,ord_000037,Black Truffle Risotto,menu_007,5,28,140,2026-06-03T19:30:00-04:00
+sale_000038,rest_demo_001,ord_000038,Buffalo Wings (1lb),menu_008,18,15.5,279,2026-06-03T19:30:00-04:00
+sale_000039,rest_demo_001,ord_000039,Veggie Hummus Wrap,menu_009,13,11.5,149.5,2026-06-03T19:30:00-04:00
+sale_000040,rest_demo_001,ord_000040,Chocolate Lava Cake,menu_010,17,9.5,161.5,2026-06-03T19:30:00-04:00
+sale_000041,rest_demo_001,ord_000041,Classic Cheeseburger,menu_001,34,14.5,493,2026-06-04T19:30:00-04:00
+sale_000042,rest_demo_001,ord_000042,Margherita Pizza,menu_002,35,16,560,2026-06-04T19:30:00-04:00
+sale_000043,rest_demo_001,ord_000043,Caesar Salad,menu_003,25,12,300,2026-06-04T19:30:00-04:00
+sale_000044,rest_demo_001,ord_000044,Grilled Salmon,menu_004,13,24,312,2026-06-04T19:30:00-04:00
+sale_000045,rest_demo_001,ord_000045,Fettuccine Alfredo,menu_005,19,17.5,332.5,2026-06-04T19:30:00-04:00
+sale_000046,rest_demo_001,ord_000046,BBQ Ribs (Half Rack),menu_006,15,21,315,2026-06-04T19:30:00-04:00
+sale_000047,rest_demo_001,ord_000047,Black Truffle Risotto,menu_007,7,28,196,2026-06-04T19:30:00-04:00
+sale_000048,rest_demo_001,ord_000048,Buffalo Wings (1lb),menu_008,24,15.5,372,2026-06-04T19:30:00-04:00
+sale_000049,rest_demo_001,ord_000049,Veggie Hummus Wrap,menu_009,14,11.5,161,2026-06-04T19:30:00-04:00
+sale_000050,rest_demo_001,ord_000050,Chocolate Lava Cake,menu_010,18,9.5,171,2026-06-04T19:30:00-04:00
+sale_000051,rest_demo_001,ord_000051,Classic Cheeseburger,menu_001,53,14.5,768.5,2026-06-05T19:30:00-04:00
+sale_000052,rest_demo_001,ord_000052,Margherita Pizza,menu_002,37,16,592,2026-06-05T19:30:00-04:00
+sale_000053,rest_demo_001,ord_000053,Caesar Salad,menu_003,31,12,372,2026-06-05T19:30:00-04:00
+sale_000054,rest_demo_001,ord_000054,Grilled Salmon,menu_004,22,24,528,2026-06-05T19:30:00-04:00
+sale_000055,rest_demo_001,ord_000055,Fettuccine Alfredo,menu_005,24,17.5,420,2026-06-05T19:30:00-04:00
+sale_000056,rest_demo_001,ord_000056,BBQ Ribs (Half Rack),menu_006,20,21,420,2026-06-05T19:30:00-04:00
+sale_000057,rest_demo_001,ord_000057,Black Truffle Risotto,menu_007,10,28,280,2026-06-05T19:30:00-04:00
+sale_000058,rest_demo_001,ord_000058,Buffalo Wings (1lb),menu_008,33,15.5,511.5,2026-06-05T19:30:00-04:00
+sale_000059,rest_demo_001,ord_000059,Veggie Hummus Wrap,menu_009,17,11.5,195.5,2026-06-05T19:30:00-04:00
+sale_000060,rest_demo_001,ord_000060,Chocolate Lava Cake,menu_010,23,9.5,218.5,2026-06-05T19:30:00-04:00
+sale_000061,rest_demo_001,ord_000061,Classic Cheeseburger,menu_001,51,14.5,739.5,2026-06-06T19:30:00-04:00
+sale_000062,rest_demo_001,ord_000062,Margherita Pizza,menu_002,49,16,784,2026-06-06T19:30:00-04:00
+sale_000063,rest_demo_001,ord_000063,Caesar Salad,menu_003,38,12,456,2026-06-06T19:30:00-04:00
+sale_000064,rest_demo_001,ord_000064,Grilled Salmon,menu_004,21,24,504,2026-06-06T19:30:00-04:00
+sale_000065,rest_demo_001,ord_000065,Fettuccine Alfredo,menu_005,24,17.5,420,2026-06-06T19:30:00-04:00
+sale_000066,rest_demo_001,ord_000066,BBQ Ribs (Half Rack),menu_006,24,21,504,2026-06-06T19:30:00-04:00
+sale_000067,rest_demo_001,ord_000067,Black Truffle Risotto,menu_007,11,28,308,2026-06-06T19:30:00-04:00
+sale_000068,rest_demo_001,ord_000068,Buffalo Wings (1lb),menu_008,38,15.5,589,2026-06-06T19:30:00-04:00
+sale_000069,rest_demo_001,ord_000069,Veggie Hummus Wrap,menu_009,27,11.5,310.5,2026-06-06T19:30:00-04:00
+sale_000070,rest_demo_001,ord_000070,Chocolate Lava Cake,menu_010,35,9.5,332.5,2026-06-06T19:30:00-04:00
+sale_000071,rest_demo_001,ord_000071,Classic Cheeseburger,menu_001,36,14.5,522,2026-06-07T19:30:00-04:00
+sale_000072,rest_demo_001,ord_000072,Margherita Pizza,menu_002,38,16,608,2026-06-07T19:30:00-04:00
+sale_000073,rest_demo_001,ord_000073,Caesar Salad,menu_003,27,12,324,2026-06-07T19:30:00-04:00
+sale_000074,rest_demo_001,ord_000074,Grilled Salmon,menu_004,16,24,384,2026-06-07T19:30:00-04:00
+sale_000075,rest_demo_001,ord_000075,Fettuccine Alfredo,menu_005,19,17.5,332.5,2026-06-07T19:30:00-04:00
+sale_000076,rest_demo_001,ord_000076,BBQ Ribs (Half Rack),menu_006,20,21,420,2026-06-07T19:30:00-04:00
+sale_000077,rest_demo_001,ord_000077,Black Truffle Risotto,menu_007,6,28,168,2026-06-07T19:30:00-04:00
+sale_000078,rest_demo_001,ord_000078,Buffalo Wings (1lb),menu_008,27,15.5,418.5,2026-06-07T19:30:00-04:00
+sale_000079,rest_demo_001,ord_000079,Veggie Hummus Wrap,menu_009,17,11.5,195.5,2026-06-07T19:30:00-04:00
+sale_000080,rest_demo_001,ord_000080,Chocolate Lava Cake,menu_010,27,9.5,256.5,2026-06-07T19:30:00-04:00
+sale_000081,rest_demo_001,ord_000081,Classic Cheeseburger,menu_001,37,14.5,536.5,2026-06-08T19:30:00-04:00
+sale_000082,rest_demo_001,ord_000082,Margherita Pizza,menu_002,24,16,384,2026-06-08T19:30:00-04:00
+sale_000083,rest_demo_001,ord_000083,Caesar Salad,menu_003,19,12,228,2026-06-08T19:30:00-04:00
+sale_000084,rest_demo_001,ord_000084,Grilled Salmon,menu_004,11,24,264,2026-06-08T19:30:00-04:00
+sale_000085,rest_demo_001,ord_000085,Fettuccine Alfredo,menu_005,18,17.5,315,2026-06-08T19:30:00-04:00
+sale_000086,rest_demo_001,ord_000086,BBQ Ribs (Half Rack),menu_006,16,21,336,2026-06-08T19:30:00-04:00
+sale_000087,rest_demo_001,ord_000087,Black Truffle Risotto,menu_007,5,28,140,2026-06-08T19:30:00-04:00
+sale_000088,rest_demo_001,ord_000088,Buffalo Wings (1lb),menu_008,22,15.5,341,2026-06-08T19:30:00-04:00
+sale_000089,rest_demo_001,ord_000089,Veggie Hummus Wrap,menu_009,13,11.5,149.5,2026-06-08T19:30:00-04:00
+sale_000090,rest_demo_001,ord_000090,Chocolate Lava Cake,menu_010,15,9.5,142.5,2026-06-08T19:30:00-04:00
+sale_000091,rest_demo_001,ord_000091,Classic Cheeseburger,menu_001,34,14.5,493,2026-06-09T19:30:00-04:00
+sale_000092,rest_demo_001,ord_000092,Margherita Pizza,menu_002,25,16,400,2026-06-09T19:30:00-04:00
+sale_000093,rest_demo_001,ord_000093,Caesar Salad,menu_003,20,12,240,2026-06-09T19:30:00-04:00
+sale_000094,rest_demo_001,ord_000094,Grilled Salmon,menu_004,11,24,264,2026-06-09T19:30:00-04:00
+sale_000095,rest_demo_001,ord_000095,Fettuccine Alfredo,menu_005,12,17.5,210,2026-06-09T19:30:00-04:00
+sale_000096,rest_demo_001,ord_000096,BBQ Ribs (Half Rack),menu_006,12,21,252,2026-06-09T19:30:00-04:00
+sale_000097,rest_demo_001,ord_000097,Black Truffle Risotto,menu_007,4,28,112,2026-06-09T19:30:00-04:00
+sale_000098,rest_demo_001,ord_000098,Buffalo Wings (1lb),menu_008,22,15.5,341,2026-06-09T19:30:00-04:00
+sale_000099,rest_demo_001,ord_000099,Veggie Hummus Wrap,menu_009,14,11.5,161,2026-06-09T19:30:00-04:00
+sale_000100,rest_demo_001,ord_000100,Chocolate Lava Cake,menu_010,18,9.5,171,2026-06-09T19:30:00-04:00
+sale_000101,rest_demo_001,ord_000101,Classic Cheeseburger,menu_001,32,14.5,464,2026-06-10T19:30:00-04:00
+sale_000102,rest_demo_001,ord_000102,Margherita Pizza,menu_002,23,16,368,2026-06-10T19:30:00-04:00
+sale_000103,rest_demo_001,ord_000103,Caesar Salad,menu_003,23,12,276,2026-06-10T19:30:00-04:00
+sale_000104,rest_demo_001,ord_000104,Grilled Salmon,menu_004,15,24,360,2026-06-10T19:30:00-04:00
+sale_000105,rest_demo_001,ord_000105,Fettuccine Alfredo,menu_005,14,17.5,245,2026-06-10T19:30:00-04:00
+sale_000106,rest_demo_001,ord_000106,BBQ Ribs (Half Rack),menu_006,15,21,315,2026-06-10T19:30:00-04:00
+sale_000107,rest_demo_001,ord_000107,Black Truffle Risotto,menu_007,5,28,140,2026-06-10T19:30:00-04:00
+sale_000108,rest_demo_001,ord_000108,Buffalo Wings (1lb),menu_008,24,15.5,372,2026-06-10T19:30:00-04:00
+sale_000109,rest_demo_001,ord_000109,Veggie Hummus Wrap,menu_009,15,11.5,172.5,2026-06-10T19:30:00-04:00
+sale_000110,rest_demo_001,ord_000110,Chocolate Lava Cake,menu_010,16,9.5,152,2026-06-10T19:30:00-04:00
+sale_000111,rest_demo_001,ord_000111,Classic Cheeseburger,menu_001,38,14.5,551,2026-06-11T19:30:00-04:00
+sale_000112,rest_demo_001,ord_000112,Margherita Pizza,menu_002,31,16,496,2026-06-11T19:30:00-04:00
+sale_000113,rest_demo_001,ord_000113,Caesar Salad,menu_003,20,12,240,2026-06-11T19:30:00-04:00
+sale_000114,rest_demo_001,ord_000114,Grilled Salmon,menu_004,16,24,384,2026-06-11T19:30:00-04:00
+sale_000115,rest_demo_001,ord_000115,Fettuccine Alfredo,menu_005,18,17.5,315,2026-06-11T19:30:00-04:00
+sale_000116,rest_demo_001,ord_000116,BBQ Ribs (Half Rack),menu_006,15,21,315,2026-06-11T19:30:00-04:00
+sale_000117,rest_demo_001,ord_000117,Black Truffle Risotto,menu_007,6,28,168,2026-06-11T19:30:00-04:00
+sale_000118,rest_demo_001,ord_000118,Buffalo Wings (1lb),menu_008,26,15.5,403,2026-06-11T19:30:00-04:00
+sale_000119,rest_demo_001,ord_000119,Veggie Hummus Wrap,menu_009,14,11.5,161,2026-06-11T19:30:00-04:00
+sale_000120,rest_demo_001,ord_000120,Chocolate Lava Cake,menu_010,19,9.5,180.5,2026-06-11T19:30:00-04:00
+sale_000121,rest_demo_001,ord_000121,Classic Cheeseburger,menu_001,62,14.5,899,2026-06-12T19:30:00-04:00
+sale_000122,rest_demo_001,ord_000122,Margherita Pizza,menu_002,43,16,688,2026-06-12T19:30:00-04:00
+sale_000123,rest_demo_001,ord_000123,Caesar Salad,menu_003,30,12,360,2026-06-12T19:30:00-04:00
+sale_000124,rest_demo_001,ord_000124,Grilled Salmon,menu_004,19,24,456,2026-06-12T19:30:00-04:00
+sale_000125,rest_demo_001,ord_000125,Fettuccine Alfredo,menu_005,21,17.5,367.5,2026-06-12T19:30:00-04:00
+sale_000126,rest_demo_001,ord_000126,BBQ Ribs (Half Rack),menu_006,20,21,420,2026-06-12T19:30:00-04:00
+sale_000127,rest_demo_001,ord_000127,Black Truffle Risotto,menu_007,8,28,224,2026-06-12T19:30:00-04:00
+sale_000128,rest_demo_001,ord_000128,Buffalo Wings (1lb),menu_008,34,15.5,527,2026-06-12T19:30:00-04:00
+sale_000129,rest_demo_001,ord_000129,Veggie Hummus Wrap,menu_009,19,11.5,218.5,2026-06-12T19:30:00-04:00
+sale_000130,rest_demo_001,ord_000130,Chocolate Lava Cake,menu_010,25,9.5,237.5,2026-06-12T19:30:00-04:00
+sale_000131,rest_demo_001,ord_000131,Classic Cheeseburger,menu_001,51,14.5,739.5,2026-06-13T19:30:00-04:00
+sale_000132,rest_demo_001,ord_000132,Margherita Pizza,menu_002,50,16,800,2026-06-13T19:30:00-04:00
+sale_000133,rest_demo_001,ord_000133,Caesar Salad,menu_003,31,12,372,2026-06-13T19:30:00-04:00
+sale_000134,rest_demo_001,ord_000134,Grilled Salmon,menu_004,25,24,600,2026-06-13T19:30:00-04:00
+sale_000135,rest_demo_001,ord_000135,Fettuccine Alfredo,menu_005,32,17.5,560,2026-06-13T19:30:00-04:00
+sale_000136,rest_demo_001,ord_000136,BBQ Ribs (Half Rack),menu_006,21,21,441,2026-06-13T19:30:00-04:00
+sale_000137,rest_demo_001,ord_000137,Black Truffle Risotto,menu_007,9,28,252,2026-06-13T19:30:00-04:00
+sale_000138,rest_demo_001,ord_000138,Buffalo Wings (1lb),menu_008,40,15.5,620,2026-06-13T19:30:00-04:00
+sale_000139,rest_demo_001,ord_000139,Veggie Hummus Wrap,menu_009,21,11.5,241.5,2026-06-13T19:30:00-04:00
+sale_000140,rest_demo_001,ord_000140,Chocolate Lava Cake,menu_010,27,9.5,256.5,2026-06-13T19:30:00-04:00
+sale_000141,rest_demo_001,ord_000141,Classic Cheeseburger,menu_001,52,14.5,754,2026-06-14T19:30:00-04:00
+sale_000142,rest_demo_001,ord_000142,Margherita Pizza,menu_002,36,16,576,2026-06-14T19:30:00-04:00
+sale_000143,rest_demo_001,ord_000143,Caesar Salad,menu_003,26,12,312,2026-06-14T19:30:00-04:00
+sale_000144,rest_demo_001,ord_000144,Grilled Salmon,menu_004,18,24,432,2026-06-14T19:30:00-04:00
+sale_000145,rest_demo_001,ord_000145,Fettuccine Alfredo,menu_005,23,17.5,402.5,2026-06-14T19:30:00-04:00
+sale_000146,rest_demo_001,ord_000146,BBQ Ribs (Half Rack),menu_006,17,21,357,2026-06-14T19:30:00-04:00
+sale_000147,rest_demo_001,ord_000147,Black Truffle Risotto,menu_007,6,28,168,2026-06-14T19:30:00-04:00
+sale_000148,rest_demo_001,ord_000148,Buffalo Wings (1lb),menu_008,27,15.5,418.5,2026-06-14T19:30:00-04:00
+sale_000149,rest_demo_001,ord_000149,Veggie Hummus Wrap,menu_009,17,11.5,195.5,2026-06-14T19:30:00-04:00
+sale_000150,rest_demo_001,ord_000150,Chocolate Lava Cake,menu_010,23,9.5,218.5,2026-06-14T19:30:00-04:00
+sale_000151,rest_demo_001,ord_000151,Classic Cheeseburger,menu_001,36,14.5,522,2026-06-15T19:30:00-04:00
+sale_000152,rest_demo_001,ord_000152,Margherita Pizza,menu_002,28,16,448,2026-06-15T19:30:00-04:00
+sale_000153,rest_demo_001,ord_000153,Caesar Salad,menu_003,22,12,264,2026-06-15T19:30:00-04:00
+sale_000154,rest_demo_001,ord_000154,Grilled Salmon,menu_004,10,24,240,2026-06-15T19:30:00-04:00
+sale_000155,rest_demo_001,ord_000155,Fettuccine Alfredo,menu_005,15,17.5,262.5,2026-06-15T19:30:00-04:00
+sale_000156,rest_demo_001,ord_000156,BBQ Ribs (Half Rack),menu_006,13,21,273,2026-06-15T19:30:00-04:00
+sale_000157,rest_demo_001,ord_000157,Black Truffle Risotto,menu_007,6,28,168,2026-06-15T19:30:00-04:00
+sale_000158,rest_demo_001,ord_000158,Buffalo Wings (1lb),menu_008,19,15.5,294.5,2026-06-15T19:30:00-04:00
+sale_000159,rest_demo_001,ord_000159,Veggie Hummus Wrap,menu_009,12,11.5,138,2026-06-15T19:30:00-04:00
+sale_000160,rest_demo_001,ord_000160,Chocolate Lava Cake,menu_010,17,9.5,161.5,2026-06-15T19:30:00-04:00
+sale_000161,rest_demo_001,ord_000161,Classic Cheeseburger,menu_001,30,14.5,435,2026-06-16T19:30:00-04:00
+sale_000162,rest_demo_001,ord_000162,Margherita Pizza,menu_002,23,16,368,2026-06-16T19:30:00-04:00
+sale_000163,rest_demo_001,ord_000163,Caesar Salad,menu_003,16,12,192,2026-06-16T19:30:00-04:00
+sale_000164,rest_demo_001,ord_000164,Grilled Salmon,menu_004,13,24,312,2026-06-16T19:30:00-04:00
+sale_000165,rest_demo_001,ord_000165,Fettuccine Alfredo,menu_005,14,17.5,245,2026-06-16T19:30:00-04:00
+sale_000166,rest_demo_001,ord_000166,BBQ Ribs (Half Rack),menu_006,15,21,315,2026-06-16T19:30:00-04:00
+sale_000167,rest_demo_001,ord_000167,Black Truffle Risotto,menu_007,5,28,140,2026-06-16T19:30:00-04:00
+sale_000168,rest_demo_001,ord_000168,Buffalo Wings (1lb),menu_008,16,15.5,248,2026-06-16T19:30:00-04:00
+sale_000169,rest_demo_001,ord_000169,Veggie Hummus Wrap,menu_009,14,11.5,161,2026-06-16T19:30:00-04:00
+sale_000170,rest_demo_001,ord_000170,Chocolate Lava Cake,menu_010,18,9.5,171,2026-06-16T19:30:00-04:00
+sale_000171,rest_demo_001,ord_000171,Classic Cheeseburger,menu_001,41,14.5,594.5,2026-06-17T19:30:00-04:00
+sale_000172,rest_demo_001,ord_000172,Margherita Pizza,menu_002,32,16,512,2026-06-17T19:30:00-04:00
+sale_000173,rest_demo_001,ord_000173,Caesar Salad,menu_003,23,12,276,2026-06-17T19:30:00-04:00
+sale_000174,rest_demo_001,ord_000174,Grilled Salmon,menu_004,11,24,264,2026-06-17T19:30:00-04:00
+sale_000175,rest_demo_001,ord_000175,Fettuccine Alfredo,menu_005,17,17.5,297.5,2026-06-17T19:30:00-04:00
+sale_000176,rest_demo_001,ord_000176,BBQ Ribs (Half Rack),menu_006,13,21,273,2026-06-17T19:30:00-04:00
+sale_000177,rest_demo_001,ord_000177,Black Truffle Risotto,menu_007,5,28,140,2026-06-17T19:30:00-04:00
+sale_000178,rest_demo_001,ord_000178,Buffalo Wings (1lb),menu_008,19,15.5,294.5,2026-06-17T19:30:00-04:00
+sale_000179,rest_demo_001,ord_000179,Veggie Hummus Wrap,menu_009,13,11.5,149.5,2026-06-17T19:30:00-04:00
+sale_000180,rest_demo_001,ord_000180,Chocolate Lava Cake,menu_010,22,9.5,209,2026-06-17T19:30:00-04:00
+sale_000181,rest_demo_001,ord_000181,Classic Cheeseburger,menu_001,36,14.5,522,2026-06-18T19:30:00-04:00
+sale_000182,rest_demo_001,ord_000182,Margherita Pizza,menu_002,34,16,544,2026-06-18T19:30:00-04:00
+sale_000183,rest_demo_001,ord_000183,Caesar Salad,menu_003,22,12,264,2026-06-18T19:30:00-04:00
+sale_000184,rest_demo_001,ord_000184,Grilled Salmon,menu_004,14,24,336,2026-06-18T19:30:00-04:00
+sale_000185,rest_demo_001,ord_000185,Fettuccine Alfredo,menu_005,22,17.5,385,2026-06-18T19:30:00-04:00
+sale_000186,rest_demo_001,ord_000186,BBQ Ribs (Half Rack),menu_006,19,21,399,2026-06-18T19:30:00-04:00
+sale_000187,rest_demo_001,ord_000187,Black Truffle Risotto,menu_007,6,28,168,2026-06-18T19:30:00-04:00
+sale_000188,rest_demo_001,ord_000188,Buffalo Wings (1lb),menu_008,27,15.5,418.5,2026-06-18T19:30:00-04:00
+sale_000189,rest_demo_001,ord_000189,Veggie Hummus Wrap,menu_009,13,11.5,149.5,2026-06-18T19:30:00-04:00
+sale_000190,rest_demo_001,ord_000190,Chocolate Lava Cake,menu_010,19,9.5,180.5,2026-06-18T19:30:00-04:00
+sale_000191,rest_demo_001,ord_000191,Classic Cheeseburger,menu_001,62,14.5,899,2026-06-19T19:30:00-04:00
+sale_000192,rest_demo_001,ord_000192,Margherita Pizza,menu_002,43,16,688,2026-06-19T19:30:00-04:00
+sale_000193,rest_demo_001,ord_000193,Caesar Salad,menu_003,31,12,372,2026-06-19T19:30:00-04:00
+sale_000194,rest_demo_001,ord_000194,Grilled Salmon,menu_004,21,24,504,2026-06-19T19:30:00-04:00
+sale_000195,rest_demo_001,ord_000195,Fettuccine Alfredo,menu_005,21,17.5,367.5,2026-06-19T19:30:00-04:00
+sale_000196,rest_demo_001,ord_000196,BBQ Ribs (Half Rack),menu_006,23,21,483,2026-06-19T19:30:00-04:00
+sale_000197,rest_demo_001,ord_000197,Black Truffle Risotto,menu_007,8,28,224,2026-06-19T19:30:00-04:00
+sale_000198,rest_demo_001,ord_000198,Buffalo Wings (1lb),menu_008,38,15.5,589,2026-06-19T19:30:00-04:00
+sale_000199,rest_demo_001,ord_000199,Veggie Hummus Wrap,menu_009,18,11.5,207,2026-06-19T19:30:00-04:00
+sale_000200,rest_demo_001,ord_000200,Chocolate Lava Cake,menu_010,32,9.5,304,2026-06-19T19:30:00-04:00
+sale_000201,rest_demo_001,ord_000201,Classic Cheeseburger,menu_001,51,14.5,739.5,2026-06-20T19:30:00-04:00
+sale_000202,rest_demo_001,ord_000202,Margherita Pizza,menu_002,42,16,672,2026-06-20T19:30:00-04:00
+sale_000203,rest_demo_001,ord_000203,Caesar Salad,menu_003,36,12,432,2026-06-20T19:30:00-04:00
+sale_000204,rest_demo_001,ord_000204,Grilled Salmon,menu_004,24,24,576,2026-06-20T19:30:00-04:00
+sale_000205,rest_demo_001,ord_000205,Fettuccine Alfredo,menu_005,26,17.5,455,2026-06-20T19:30:00-04:00
+sale_000206,rest_demo_001,ord_000206,BBQ Ribs (Half Rack),menu_006,22,21,462,2026-06-20T19:30:00-04:00
+sale_000207,rest_demo_001,ord_000207,Black Truffle Risotto,menu_007,11,28,308,2026-06-20T19:30:00-04:00
+sale_000208,rest_demo_001,ord_000208,Buffalo Wings (1lb),menu_008,35,15.5,542.5,2026-06-20T19:30:00-04:00
+sale_000209,rest_demo_001,ord_000209,Veggie Hummus Wrap,menu_009,25,11.5,287.5,2026-06-20T19:30:00-04:00
+sale_000210,rest_demo_001,ord_000210,Chocolate Lava Cake,menu_010,33,9.5,313.5,2026-06-20T19:30:00-04:00
+sale_000211,rest_demo_001,ord_000211,Classic Cheeseburger,menu_001,44,14.5,638,2026-06-21T19:30:00-04:00
+sale_000212,rest_demo_001,ord_000212,Margherita Pizza,menu_002,37,16,592,2026-06-21T19:30:00-04:00
+sale_000213,rest_demo_001,ord_000213,Caesar Salad,menu_003,26,12,312,2026-06-21T19:30:00-04:00
+sale_000214,rest_demo_001,ord_000214,Grilled Salmon,menu_004,19,24,456,2026-06-21T19:30:00-04:00
+sale_000215,rest_demo_001,ord_000215,Fettuccine Alfredo,menu_005,19,17.5,332.5,2026-06-21T19:30:00-04:00
+sale_000216,rest_demo_001,ord_000216,BBQ Ribs (Half Rack),menu_006,20,21,420,2026-06-21T19:30:00-04:00
+sale_000217,rest_demo_001,ord_000217,Black Truffle Risotto,menu_007,6,28,168,2026-06-21T19:30:00-04:00
+sale_000218,rest_demo_001,ord_000218,Buffalo Wings (1lb),menu_008,27,15.5,418.5,2026-06-21T19:30:00-04:00
+sale_000219,rest_demo_001,ord_000219,Veggie Hummus Wrap,menu_009,19,11.5,218.5,2026-06-21T19:30:00-04:00
+sale_000220,rest_demo_001,ord_000220,Chocolate Lava Cake,menu_010,22,9.5,209,2026-06-21T19:30:00-04:00
+sale_000221,rest_demo_001,ord_000221,Classic Cheeseburger,menu_001,31,14.5,449.5,2026-06-22T19:30:00-04:00
+sale_000222,rest_demo_001,ord_000222,Margherita Pizza,menu_002,29,16,464,2026-06-22T19:30:00-04:00
+sale_000223,rest_demo_001,ord_000223,Caesar Salad,menu_003,16,12,192,2026-06-22T19:30:00-04:00
+sale_000224,rest_demo_001,ord_000224,Grilled Salmon,menu_004,12,24,288,2026-06-22T19:30:00-04:00
+sale_000225,rest_demo_001,ord_000225,Fettuccine Alfredo,menu_005,19,17.5,332.5,2026-06-22T19:30:00-04:00
+sale_000226,rest_demo_001,ord_000226,BBQ Ribs (Half Rack),menu_006,17,21,357,2026-06-22T19:30:00-04:00
+sale_000227,rest_demo_001,ord_000227,Black Truffle Risotto,menu_007,4,28,112,2026-06-22T19:30:00-04:00
+sale_000228,rest_demo_001,ord_000228,Buffalo Wings (1lb),menu_008,19,15.5,294.5,2026-06-22T19:30:00-04:00
+sale_000229,rest_demo_001,ord_000229,Veggie Hummus Wrap,menu_009,12,11.5,138,2026-06-22T19:30:00-04:00
+sale_000230,rest_demo_001,ord_000230,Chocolate Lava Cake,menu_010,20,9.5,190,2026-06-22T19:30:00-04:00
+sale_000231,rest_demo_001,ord_000231,Classic Cheeseburger,menu_001,36,14.5,522,2026-06-23T19:30:00-04:00
+sale_000232,rest_demo_001,ord_000232,Margherita Pizza,menu_002,28,16,448,2026-06-23T19:30:00-04:00
+sale_000233,rest_demo_001,ord_000233,Caesar Salad,menu_003,17,12,204,2026-06-23T19:30:00-04:00
+sale_000234,rest_demo_001,ord_000234,Grilled Salmon,menu_004,10,24,240,2026-06-23T19:30:00-04:00
+sale_000235,rest_demo_001,ord_000235,Fettuccine Alfredo,menu_005,17,17.5,297.5,2026-06-23T19:30:00-04:00
+sale_000236,rest_demo_001,ord_000236,BBQ Ribs (Half Rack),menu_006,14,21,294,2026-06-23T19:30:00-04:00
+sale_000237,rest_demo_001,ord_000237,Black Truffle Risotto,menu_007,5,28,140,2026-06-23T19:30:00-04:00
+sale_000238,rest_demo_001,ord_000238,Buffalo Wings (1lb),menu_008,23,15.5,356.5,2026-06-23T19:30:00-04:00
+sale_000239,rest_demo_001,ord_000239,Veggie Hummus Wrap,menu_009,13,11.5,149.5,2026-06-23T19:30:00-04:00
+sale_000240,rest_demo_001,ord_000240,Chocolate Lava Cake,menu_010,14,9.5,133,2026-06-23T19:30:00-04:00
+sale_000241,rest_demo_001,ord_000241,Classic Cheeseburger,menu_001,39,14.5,565.5,2026-06-24T19:30:00-04:00
+sale_000242,rest_demo_001,ord_000242,Margherita Pizza,menu_002,26,16,416,2026-06-24T19:30:00-04:00
+sale_000243,rest_demo_001,ord_000243,Caesar Salad,menu_003,22,12,264,2026-06-24T19:30:00-04:00
+sale_000244,rest_demo_001,ord_000244,Grilled Salmon,menu_004,15,24,360,2026-06-24T19:30:00-04:00
+sale_000245,rest_demo_001,ord_000245,Fettuccine Alfredo,menu_005,15,17.5,262.5,2026-06-24T19:30:00-04:00
+sale_000246,rest_demo_001,ord_000246,BBQ Ribs (Half Rack),menu_006,13,21,273,2026-06-24T19:30:00-04:00
+sale_000247,rest_demo_001,ord_000247,Black Truffle Risotto,menu_007,5,28,140,2026-06-24T19:30:00-04:00
+sale_000248,rest_demo_001,ord_000248,Buffalo Wings (1lb),menu_008,23,15.5,356.5,2026-06-24T19:30:00-04:00
+sale_000249,rest_demo_001,ord_000249,Veggie Hummus Wrap,menu_009,13,11.5,149.5,2026-06-24T19:30:00-04:00
+sale_000250,rest_demo_001,ord_000250,Chocolate Lava Cake,menu_010,19,9.5,180.5,2026-06-24T19:30:00-04:00
+sale_000251,rest_demo_001,ord_000251,Classic Cheeseburger,menu_001,43,14.5,623.5,2026-06-25T19:30:00-04:00
+sale_000252,rest_demo_001,ord_000252,Margherita Pizza,menu_002,28,16,448,2026-06-25T19:30:00-04:00
+sale_000253,rest_demo_001,ord_000253,Caesar Salad,menu_003,24,12,288,2026-06-25T19:30:00-04:00
+sale_000254,rest_demo_001,ord_000254,Grilled Salmon,menu_004,13,24,312,2026-06-25T19:30:00-04:00
+sale_000255,rest_demo_001,ord_000255,Fettuccine Alfredo,menu_005,19,17.5,332.5,2026-06-25T19:30:00-04:00
+sale_000256,rest_demo_001,ord_000256,BBQ Ribs (Half Rack),menu_006,19,21,399,2026-06-25T19:30:00-04:00
+sale_000257,rest_demo_001,ord_000257,Black Truffle Risotto,menu_007,7,28,196,2026-06-25T19:30:00-04:00
+sale_000258,rest_demo_001,ord_000258,Buffalo Wings (1lb),menu_008,21,15.5,325.5,2026-06-25T19:30:00-04:00
+sale_000259,rest_demo_001,ord_000259,Veggie Hummus Wrap,menu_009,15,11.5,172.5,2026-06-25T19:30:00-04:00
+sale_000260,rest_demo_001,ord_000260,Chocolate Lava Cake,menu_010,19,9.5,180.5,2026-06-25T19:30:00-04:00
+sale_000261,rest_demo_001,ord_000261,Classic Cheeseburger,menu_001,44,14.5,638,2026-06-26T19:30:00-04:00
+sale_000262,rest_demo_001,ord_000262,Margherita Pizza,menu_002,46,16,736,2026-06-26T19:30:00-04:00
+sale_000263,rest_demo_001,ord_000263,Caesar Salad,menu_003,32,12,384,2026-06-26T19:30:00-04:00
+sale_000264,rest_demo_001,ord_000264,Grilled Salmon,menu_004,18,24,432,2026-06-26T19:30:00-04:00
+sale_000265,rest_demo_001,ord_000265,Fettuccine Alfredo,menu_005,27,17.5,472.5,2026-06-26T19:30:00-04:00
+sale_000266,rest_demo_001,ord_000266,BBQ Ribs (Half Rack),menu_006,23,21,483,2026-06-26T19:30:00-04:00
+sale_000267,rest_demo_001,ord_000267,Black Truffle Risotto,menu_007,8,28,224,2026-06-26T19:30:00-04:00
+sale_000268,rest_demo_001,ord_000268,Buffalo Wings (1lb),menu_008,28,15.5,434,2026-06-26T19:30:00-04:00
+sale_000269,rest_demo_001,ord_000269,Veggie Hummus Wrap,menu_009,18,11.5,207,2026-06-26T19:30:00-04:00
+sale_000270,rest_demo_001,ord_000270,Chocolate Lava Cake,menu_010,32,9.5,304,2026-06-26T19:30:00-04:00
+sale_000271,rest_demo_001,ord_000271,Classic Cheeseburger,menu_001,70,14.5,1015,2026-06-27T19:30:00-04:00
+sale_000272,rest_demo_001,ord_000272,Margherita Pizza,menu_002,49,16,784,2026-06-27T19:30:00-04:00
+sale_000273,rest_demo_001,ord_000273,Caesar Salad,menu_003,40,12,480,2026-06-27T19:30:00-04:00
+sale_000274,rest_demo_001,ord_000274,Grilled Salmon,menu_004,23,24,552,2026-06-27T19:30:00-04:00
+sale_000275,rest_demo_001,ord_000275,Fettuccine Alfredo,menu_005,25,17.5,437.5,2026-06-27T19:30:00-04:00
+sale_000276,rest_demo_001,ord_000276,BBQ Ribs (Half Rack),menu_006,22,21,462,2026-06-27T19:30:00-04:00
+sale_000277,rest_demo_001,ord_000277,Black Truffle Risotto,menu_007,9,28,252,2026-06-27T19:30:00-04:00
+sale_000278,rest_demo_001,ord_000278,Buffalo Wings (1lb),menu_008,44,15.5,682,2026-06-27T19:30:00-04:00
+sale_000279,rest_demo_001,ord_000279,Veggie Hummus Wrap,menu_009,27,11.5,310.5,2026-06-27T19:30:00-04:00
+sale_000280,rest_demo_001,ord_000280,Chocolate Lava Cake,menu_010,36,9.5,342,2026-06-27T19:30:00-04:00
+sale_000281,rest_demo_001,ord_000281,Classic Cheeseburger,menu_001,52,14.5,754,2026-06-28T19:30:00-04:00
+sale_000282,rest_demo_001,ord_000282,Margherita Pizza,menu_002,32,16,512,2026-06-28T19:30:00-04:00
+sale_000283,rest_demo_001,ord_000283,Caesar Salad,menu_003,24,12,288,2026-06-28T19:30:00-04:00
+sale_000284,rest_demo_001,ord_000284,Grilled Salmon,menu_004,14,24,336,2026-06-28T19:30:00-04:00
+sale_000285,rest_demo_001,ord_000285,Fettuccine Alfredo,menu_005,24,17.5,420,2026-06-28T19:30:00-04:00
+sale_000286,rest_demo_001,ord_000286,BBQ Ribs (Half Rack),menu_006,22,21,462,2026-06-28T19:30:00-04:00
+sale_000287,rest_demo_001,ord_000287,Black Truffle Risotto,menu_007,7,28,196,2026-06-28T19:30:00-04:00
+sale_000288,rest_demo_001,ord_000288,Buffalo Wings (1lb),menu_008,30,15.5,465,2026-06-28T19:30:00-04:00
+sale_000289,rest_demo_001,ord_000289,Veggie Hummus Wrap,menu_009,16,11.5,184,2026-06-28T19:30:00-04:00
+sale_000290,rest_demo_001,ord_000290,Chocolate Lava Cake,menu_010,28,9.5,266,2026-06-28T19:30:00-04:00
+sale_000291,rest_demo_001,ord_000291,Classic Cheeseburger,menu_001,38,14.5,551,2026-06-29T19:30:00-04:00
+sale_000292,rest_demo_001,ord_000292,Margherita Pizza,menu_002,31,16,496,2026-06-29T19:30:00-04:00
+sale_000293,rest_demo_001,ord_000293,Caesar Salad,menu_003,22,12,264,2026-06-29T19:30:00-04:00
+sale_000294,rest_demo_001,ord_000294,Grilled Salmon,menu_004,14,24,336,2026-06-29T19:30:00-04:00
+sale_000295,rest_demo_001,ord_000295,Fettuccine Alfredo,menu_005,13,17.5,227.5,2026-06-29T19:30:00-04:00
+sale_000296,rest_demo_001,ord_000296,BBQ Ribs (Half Rack),menu_006,15,21,315,2026-06-29T19:30:00-04:00
+sale_000297,rest_demo_001,ord_000297,Black Truffle Risotto,menu_007,5,28,140,2026-06-29T19:30:00-04:00
+sale_000298,rest_demo_001,ord_000298,Buffalo Wings (1lb),menu_008,25,15.5,387.5,2026-06-29T19:30:00-04:00
+sale_000299,rest_demo_001,ord_000299,Veggie Hummus Wrap,menu_009,15,11.5,172.5,2026-06-29T19:30:00-04:00
+sale_000300,rest_demo_001,ord_000300,Chocolate Lava Cake,menu_010,20,9.5,190,2026-06-29T19:30:00-04:00
+sale_000301,rest_demo_001,ord_000301,Classic Cheeseburger,menu_001,35,14.5,507.5,2026-06-30T19:30:00-04:00
+sale_000302,rest_demo_001,ord_000302,Margherita Pizza,menu_002,23,16,368,2026-06-30T19:30:00-04:00
+sale_000303,rest_demo_001,ord_000303,Caesar Salad,menu_003,20,12,240,2026-06-30T19:30:00-04:00
+sale_000304,rest_demo_001,ord_000304,Grilled Salmon,menu_004,10,24,240,2026-06-30T19:30:00-04:00
+sale_000305,rest_demo_001,ord_000305,Fettuccine Alfredo,menu_005,17,17.5,297.5,2026-06-30T19:30:00-04:00
+sale_000306,rest_demo_001,ord_000306,BBQ Ribs (Half Rack),menu_006,15,21,315,2026-06-30T19:30:00-04:00
+sale_000307,rest_demo_001,ord_000307,Black Truffle Risotto,menu_007,5,28,140,2026-06-30T19:30:00-04:00
+sale_000308,rest_demo_001,ord_000308,Buffalo Wings (1lb),menu_008,22,15.5,341,2026-06-30T19:30:00-04:00
+sale_000309,rest_demo_001,ord_000309,Veggie Hummus Wrap,menu_009,12,11.5,138,2026-06-30T19:30:00-04:00
+sale_000310,rest_demo_001,ord_000310,Chocolate Lava Cake,menu_010,16,9.5,152,2026-06-30T19:30:00-04:00
+sale_000311,rest_demo_001,ord_000311,Classic Cheeseburger,menu_001,40,14.5,580,2026-07-01T19:30:00-04:00
+sale_000312,rest_demo_001,ord_000312,Margherita Pizza,menu_002,25,16,400,2026-07-01T19:30:00-04:00
+sale_000313,rest_demo_001,ord_000313,Caesar Salad,menu_003,17,12,204,2026-07-01T19:30:00-04:00
+sale_000314,rest_demo_001,ord_000314,Grilled Salmon,menu_004,12,24,288,2026-07-01T19:30:00-04:00
+sale_000315,rest_demo_001,ord_000315,Fettuccine Alfredo,menu_005,16,17.5,280,2026-07-01T19:30:00-04:00
+sale_000316,rest_demo_001,ord_000316,BBQ Ribs (Half Rack),menu_006,17,21,357,2026-07-01T19:30:00-04:00
+sale_000317,rest_demo_001,ord_000317,Black Truffle Risotto,menu_007,7,28,196,2026-07-01T19:30:00-04:00
+sale_000318,rest_demo_001,ord_000318,Buffalo Wings (1lb),menu_008,21,15.5,325.5,2026-07-01T19:30:00-04:00
+sale_000319,rest_demo_001,ord_000319,Veggie Hummus Wrap,menu_009,15,11.5,172.5,2026-07-01T19:30:00-04:00
+sale_000320,rest_demo_001,ord_000320,Chocolate Lava Cake,menu_010,18,9.5,171,2026-07-01T19:30:00-04:00
+sale_000321,rest_demo_001,ord_000321,Classic Cheeseburger,menu_001,47,14.5,681.5,2026-07-02T19:30:00-04:00
+sale_000322,rest_demo_001,ord_000322,Margherita Pizza,menu_002,32,16,512,2026-07-02T19:30:00-04:00
+sale_000323,rest_demo_001,ord_000323,Caesar Salad,menu_003,27,12,324,2026-07-02T19:30:00-04:00
+sale_000324,rest_demo_001,ord_000324,Grilled Salmon,menu_004,13,24,312,2026-07-02T19:30:00-04:00
+sale_000325,rest_demo_001,ord_000325,Fettuccine Alfredo,menu_005,22,17.5,385,2026-07-02T19:30:00-04:00
+sale_000326,rest_demo_001,ord_000326,BBQ Ribs (Half Rack),menu_006,15,21,315,2026-07-02T19:30:00-04:00
+sale_000327,rest_demo_001,ord_000327,Black Truffle Risotto,menu_007,7,28,196,2026-07-02T19:30:00-04:00
+sale_000328,rest_demo_001,ord_000328,Buffalo Wings (1lb),menu_008,23,15.5,356.5,2026-07-02T19:30:00-04:00
+sale_000329,rest_demo_001,ord_000329,Veggie Hummus Wrap,menu_009,14,11.5,161,2026-07-02T19:30:00-04:00
+sale_000330,rest_demo_001,ord_000330,Chocolate Lava Cake,menu_010,20,9.5,190,2026-07-02T19:30:00-04:00
+sale_000331,rest_demo_001,ord_000331,Classic Cheeseburger,menu_001,58,14.5,841,2026-07-03T19:30:00-04:00
+sale_000332,rest_demo_001,ord_000332,Margherita Pizza,menu_002,40,16,640,2026-07-03T19:30:00-04:00
+sale_000333,rest_demo_001,ord_000333,Caesar Salad,menu_003,32,12,384,2026-07-03T19:30:00-04:00
+sale_000334,rest_demo_001,ord_000334,Grilled Salmon,menu_004,20,24,480,2026-07-03T19:30:00-04:00
+sale_000335,rest_demo_001,ord_000335,Fettuccine Alfredo,menu_005,24,17.5,420,2026-07-03T19:30:00-04:00
+sale_000336,rest_demo_001,ord_000336,BBQ Ribs (Half Rack),menu_006,23,21,483,2026-07-03T19:30:00-04:00
+sale_000337,rest_demo_001,ord_000337,Black Truffle Risotto,menu_007,8,28,224,2026-07-03T19:30:00-04:00
+sale_000338,rest_demo_001,ord_000338,Buffalo Wings (1lb),menu_008,37,15.5,573.5,2026-07-03T19:30:00-04:00
+sale_000339,rest_demo_001,ord_000339,Veggie Hummus Wrap,menu_009,17,11.5,195.5,2026-07-03T19:30:00-04:00
+sale_000340,rest_demo_001,ord_000340,Chocolate Lava Cake,menu_010,33,9.5,313.5,2026-07-03T19:30:00-04:00
+sale_000341,rest_demo_001,ord_000341,Classic Cheeseburger,menu_001,63,14.5,913.5,2026-07-04T19:30:00-04:00
+sale_000342,rest_demo_001,ord_000342,Margherita Pizza,menu_002,53,16,848,2026-07-04T19:30:00-04:00
+sale_000343,rest_demo_001,ord_000343,Caesar Salad,menu_003,39,12,468,2026-07-04T19:30:00-04:00
+sale_000344,rest_demo_001,ord_000344,Grilled Salmon,menu_004,24,24,576,2026-07-04T19:30:00-04:00
+sale_000345,rest_demo_001,ord_000345,Fettuccine Alfredo,menu_005,28,17.5,490,2026-07-04T19:30:00-04:00
+sale_000346,rest_demo_001,ord_000346,BBQ Ribs (Half Rack),menu_006,22,21,462,2026-07-04T19:30:00-04:00
+sale_000347,rest_demo_001,ord_000347,Black Truffle Risotto,menu_007,10,28,280,2026-07-04T19:30:00-04:00
+sale_000348,rest_demo_001,ord_000348,Buffalo Wings (1lb),menu_008,37,15.5,573.5,2026-07-04T19:30:00-04:00
+sale_000349,rest_demo_001,ord_000349,Veggie Hummus Wrap,menu_009,23,11.5,264.5,2026-07-04T19:30:00-04:00
+sale_000350,rest_demo_001,ord_000350,Chocolate Lava Cake,menu_010,37,9.5,351.5,2026-07-04T19:30:00-04:00
+sale_000351,rest_demo_001,ord_000351,Classic Cheeseburger,menu_001,50,14.5,725,2026-07-05T19:30:00-04:00
+sale_000352,rest_demo_001,ord_000352,Margherita Pizza,menu_002,34,16,544,2026-07-05T19:30:00-04:00
+sale_000353,rest_demo_001,ord_000353,Caesar Salad,menu_003,25,12,300,2026-07-05T19:30:00-04:00
+sale_000354,rest_demo_001,ord_000354,Grilled Salmon,menu_004,16,24,384,2026-07-05T19:30:00-04:00
+sale_000355,rest_demo_001,ord_000355,Fettuccine Alfredo,menu_005,21,17.5,367.5,2026-07-05T19:30:00-04:00
+sale_000356,rest_demo_001,ord_000356,BBQ Ribs (Half Rack),menu_006,18,21,378,2026-07-05T19:30:00-04:00
+sale_000357,rest_demo_001,ord_000357,Black Truffle Risotto,menu_007,6,28,168,2026-07-05T19:30:00-04:00
+sale_000358,rest_demo_001,ord_000358,Buffalo Wings (1lb),menu_008,28,15.5,434,2026-07-05T19:30:00-04:00
+sale_000359,rest_demo_001,ord_000359,Veggie Hummus Wrap,menu_009,21,11.5,241.5,2026-07-05T19:30:00-04:00
+sale_000360,rest_demo_001,ord_000360,Chocolate Lava Cake,menu_010,26,9.5,247,2026-07-05T19:30:00-04:00
+sale_000361,rest_demo_001,ord_000361,Classic Cheeseburger,menu_001,39,14.5,565.5,2026-07-06T19:30:00-04:00
+sale_000362,rest_demo_001,ord_000362,Margherita Pizza,menu_002,28,16,448,2026-07-06T19:30:00-04:00
+sale_000363,rest_demo_001,ord_000363,Caesar Salad,menu_003,18,12,216,2026-07-06T19:30:00-04:00
+sale_000364,rest_demo_001,ord_000364,Grilled Salmon,menu_004,13,24,312,2026-07-06T19:30:00-04:00
+sale_000365,rest_demo_001,ord_000365,Fettuccine Alfredo,menu_005,13,17.5,227.5,2026-07-06T19:30:00-04:00
+sale_000366,rest_demo_001,ord_000366,BBQ Ribs (Half Rack),menu_006,13,21,273,2026-07-06T19:30:00-04:00
+sale_000367,rest_demo_001,ord_000367,Black Truffle Risotto,menu_007,5,28,140,2026-07-06T19:30:00-04:00
+sale_000368,rest_demo_001,ord_000368,Buffalo Wings (1lb),menu_008,22,15.5,341,2026-07-06T19:30:00-04:00
+sale_000369,rest_demo_001,ord_000369,Veggie Hummus Wrap,menu_009,14,11.5,161,2026-07-06T19:30:00-04:00
+sale_000370,rest_demo_001,ord_000370,Chocolate Lava Cake,menu_010,18,9.5,171,2026-07-06T19:30:00-04:00
+sale_000371,rest_demo_001,ord_000371,Classic Cheeseburger,menu_001,31,14.5,449.5,2026-07-07T19:30:00-04:00
+sale_000372,rest_demo_001,ord_000372,Margherita Pizza,menu_002,23,16,368,2026-07-07T19:30:00-04:00
+sale_000373,rest_demo_001,ord_000373,Caesar Salad,menu_003,18,12,216,2026-07-07T19:30:00-04:00
+sale_000374,rest_demo_001,ord_000374,Grilled Salmon,menu_004,14,24,336,2026-07-07T19:30:00-04:00
+sale_000375,rest_demo_001,ord_000375,Fettuccine Alfredo,menu_005,17,17.5,297.5,2026-07-07T19:30:00-04:00
+sale_000376,rest_demo_001,ord_000376,BBQ Ribs (Half Rack),menu_006,12,21,252,2026-07-07T19:30:00-04:00
+sale_000377,rest_demo_001,ord_000377,Black Truffle Risotto,menu_007,4,28,112,2026-07-07T19:30:00-04:00
+sale_000378,rest_demo_001,ord_000378,Buffalo Wings (1lb),menu_008,20,15.5,310,2026-07-07T19:30:00-04:00
+sale_000379,rest_demo_001,ord_000379,Veggie Hummus Wrap,menu_009,13,11.5,149.5,2026-07-07T19:30:00-04:00
+sale_000380,rest_demo_001,ord_000380,Chocolate Lava Cake,menu_010,16,9.5,152,2026-07-07T19:30:00-04:00
+sale_000381,rest_demo_001,ord_000381,Classic Cheeseburger,menu_001,40,14.5,580,2026-07-08T19:30:00-04:00
+sale_000382,rest_demo_001,ord_000382,Margherita Pizza,menu_002,31,16,496,2026-07-08T19:30:00-04:00
+sale_000383,rest_demo_001,ord_000383,Caesar Salad,menu_003,22,12,264,2026-07-08T19:30:00-04:00
+sale_000384,rest_demo_001,ord_000384,Grilled Salmon,menu_004,12,24,288,2026-07-08T19:30:00-04:00
+sale_000385,rest_demo_001,ord_000385,Fettuccine Alfredo,menu_005,15,17.5,262.5,2026-07-08T19:30:00-04:00
+sale_000386,rest_demo_001,ord_000386,BBQ Ribs (Half Rack),menu_006,13,21,273,2026-07-08T19:30:00-04:00
+sale_000387,rest_demo_001,ord_000387,Black Truffle Risotto,menu_007,5,28,140,2026-07-08T19:30:00-04:00
+sale_000388,rest_demo_001,ord_000388,Buffalo Wings (1lb),menu_008,23,15.5,356.5,2026-07-08T19:30:00-04:00
+sale_000389,rest_demo_001,ord_000389,Veggie Hummus Wrap,menu_009,16,11.5,184,2026-07-08T19:30:00-04:00
+sale_000390,rest_demo_001,ord_000390,Chocolate Lava Cake,menu_010,16,9.5,152,2026-07-08T19:30:00-04:00
+sale_000391,rest_demo_001,ord_000391,Classic Cheeseburger,menu_001,39,14.5,565.5,2026-07-09T19:30:00-04:00
+sale_000392,rest_demo_001,ord_000392,Margherita Pizza,menu_002,33,16,528,2026-07-09T19:30:00-04:00
+sale_000393,rest_demo_001,ord_000393,Caesar Salad,menu_003,21,12,252,2026-07-09T19:30:00-04:00
+sale_000394,rest_demo_001,ord_000394,Grilled Salmon,menu_004,16,24,384,2026-07-09T19:30:00-04:00
+sale_000395,rest_demo_001,ord_000395,Fettuccine Alfredo,menu_005,19,17.5,332.5,2026-07-09T19:30:00-04:00
+sale_000396,rest_demo_001,ord_000396,BBQ Ribs (Half Rack),menu_006,15,21,315,2026-07-09T19:30:00-04:00
+sale_000397,rest_demo_001,ord_000397,Black Truffle Risotto,menu_007,7,28,196,2026-07-09T19:30:00-04:00
+sale_000398,rest_demo_001,ord_000398,Buffalo Wings (1lb),menu_008,21,15.5,325.5,2026-07-09T19:30:00-04:00
+sale_000399,rest_demo_001,ord_000399,Veggie Hummus Wrap,menu_009,17,11.5,195.5,2026-07-09T19:30:00-04:00
+sale_000400,rest_demo_001,ord_000400,Chocolate Lava Cake,menu_010,23,9.5,218.5,2026-07-09T19:30:00-04:00
+sale_000401,rest_demo_001,ord_000401,Classic Cheeseburger,menu_001,47,14.5,681.5,2026-07-10T19:30:00-04:00
+sale_000402,rest_demo_001,ord_000402,Margherita Pizza,menu_002,42,16,672,2026-07-10T19:30:00-04:00
+sale_000403,rest_demo_001,ord_000403,Caesar Salad,menu_003,28,12,336,2026-07-10T19:30:00-04:00
+sale_000404,rest_demo_001,ord_000404,Grilled Salmon,menu_004,23,24,552,2026-07-10T19:30:00-04:00
+sale_000405,rest_demo_001,ord_000405,Fettuccine Alfredo,menu_005,26,17.5,455,2026-07-10T19:30:00-04:00
+sale_000406,rest_demo_001,ord_000406,BBQ Ribs (Half Rack),menu_006,19,21,399,2026-07-10T19:30:00-04:00
+sale_000407,rest_demo_001,ord_000407,Black Truffle Risotto,menu_007,8,28,224,2026-07-10T19:30:00-04:00
+sale_000408,rest_demo_001,ord_000408,Buffalo Wings (1lb),menu_008,39,15.5,604.5,2026-07-10T19:30:00-04:00
+sale_000409,rest_demo_001,ord_000409,Veggie Hummus Wrap,menu_009,21,11.5,241.5,2026-07-10T19:30:00-04:00
+sale_000410,rest_demo_001,ord_000410,Chocolate Lava Cake,menu_010,32,9.5,304,2026-07-10T19:30:00-04:00
+sale_000411,rest_demo_001,ord_000411,Classic Cheeseburger,menu_001,66,14.5,957,2026-07-11T19:30:00-04:00
+sale_000412,rest_demo_001,ord_000412,Margherita Pizza,menu_002,58,16,928,2026-07-11T19:30:00-04:00
+sale_000413,rest_demo_001,ord_000413,Caesar Salad,menu_003,37,12,444,2026-07-11T19:30:00-04:00
+sale_000414,rest_demo_001,ord_000414,Grilled Salmon,menu_004,27,24,648,2026-07-11T19:30:00-04:00
+sale_000415,rest_demo_001,ord_000415,Fettuccine Alfredo,menu_005,34,17.5,595,2026-07-11T19:30:00-04:00
+sale_000416,rest_demo_001,ord_000416,BBQ Ribs (Half Rack),menu_006,27,21,567,2026-07-11T19:30:00-04:00
+sale_000417,rest_demo_001,ord_000417,Black Truffle Risotto,menu_007,11,28,308,2026-07-11T19:30:00-04:00
+sale_000418,rest_demo_001,ord_000418,Buffalo Wings (1lb),menu_008,40,15.5,620,2026-07-11T19:30:00-04:00
+sale_000419,rest_demo_001,ord_000419,Veggie Hummus Wrap,menu_009,28,11.5,322,2026-07-11T19:30:00-04:00
+sale_000420,rest_demo_001,ord_000420,Chocolate Lava Cake,menu_010,33,9.5,313.5,2026-07-11T19:30:00-04:00
+sale_000421,rest_demo_001,ord_000421,Classic Cheeseburger,menu_001,53,14.5,768.5,2026-07-12T19:30:00-04:00
+sale_000422,rest_demo_001,ord_000422,Margherita Pizza,menu_002,40,16,640,2026-07-12T19:30:00-04:00
+sale_000423,rest_demo_001,ord_000423,Caesar Salad,menu_003,27,12,324,2026-07-12T19:30:00-04:00
+sale_000424,rest_demo_001,ord_000424,Grilled Salmon,menu_004,16,24,384,2026-07-12T19:30:00-04:00
+sale_000425,rest_demo_001,ord_000425,Fettuccine Alfredo,menu_005,20,17.5,350,2026-07-12T19:30:00-04:00
+sale_000426,rest_demo_001,ord_000426,BBQ Ribs (Half Rack),menu_006,21,21,441,2026-07-12T19:30:00-04:00
+sale_000427,rest_demo_001,ord_000427,Black Truffle Risotto,menu_007,8,28,224,2026-07-12T19:30:00-04:00
+sale_000428,rest_demo_001,ord_000428,Buffalo Wings (1lb),menu_008,30,15.5,465,2026-07-12T19:30:00-04:00
+sale_000429,rest_demo_001,ord_000429,Veggie Hummus Wrap,menu_009,19,11.5,218.5,2026-07-12T19:30:00-04:00
+sale_000430,rest_demo_001,ord_000430,Chocolate Lava Cake,menu_010,22,9.5,209,2026-07-12T19:30:00-04:00
+sale_000431,rest_demo_001,ord_000431,Classic Cheeseburger,menu_001,29,14.5,420.5,2026-07-13T19:30:00-04:00
+sale_000432,rest_demo_001,ord_000432,Margherita Pizza,menu_002,25,16,400,2026-07-13T19:30:00-04:00
+sale_000433,rest_demo_001,ord_000433,Caesar Salad,menu_003,18,12,216,2026-07-13T19:30:00-04:00
+sale_000434,rest_demo_001,ord_000434,Grilled Salmon,menu_004,12,24,288,2026-07-13T19:30:00-04:00
+sale_000435,rest_demo_001,ord_000435,Fettuccine Alfredo,menu_005,17,17.5,297.5,2026-07-13T19:30:00-04:00
+sale_000436,rest_demo_001,ord_000436,BBQ Ribs (Half Rack),menu_006,13,21,273,2026-07-13T19:30:00-04:00
+sale_000437,rest_demo_001,ord_000437,Black Truffle Risotto,menu_007,5,28,140,2026-07-13T19:30:00-04:00
+sale_000438,rest_demo_001,ord_000438,Buffalo Wings (1lb),menu_008,23,15.5,356.5,2026-07-13T19:30:00-04:00
+sale_000439,rest_demo_001,ord_000439,Veggie Hummus Wrap,menu_009,15,11.5,172.5,2026-07-13T19:30:00-04:00
+sale_000440,rest_demo_001,ord_000440,Chocolate Lava Cake,menu_010,15,9.5,142.5,2026-07-13T19:30:00-04:00
+sale_000441,rest_demo_001,ord_000441,Classic Cheeseburger,menu_001,31,14.5,449.5,2026-07-14T19:30:00-04:00
+sale_000442,rest_demo_001,ord_000442,Margherita Pizza,menu_002,26,16,416,2026-07-14T19:30:00-04:00
+sale_000443,rest_demo_001,ord_000443,Caesar Salad,menu_003,18,12,216,2026-07-14T19:30:00-04:00
+sale_000444,rest_demo_001,ord_000444,Grilled Salmon,menu_004,11,24,264,2026-07-14T19:30:00-04:00
+sale_000445,rest_demo_001,ord_000445,Fettuccine Alfredo,menu_005,15,17.5,262.5,2026-07-14T19:30:00-04:00
+sale_000446,rest_demo_001,ord_000446,BBQ Ribs (Half Rack),menu_006,16,21,336,2026-07-14T19:30:00-04:00
+sale_000447,rest_demo_001,ord_000447,Black Truffle Risotto,menu_007,5,28,140,2026-07-14T19:30:00-04:00
+sale_000448,rest_demo_001,ord_000448,Buffalo Wings (1lb),menu_008,22,15.5,341,2026-07-14T19:30:00-04:00
+sale_000449,rest_demo_001,ord_000449,Veggie Hummus Wrap,menu_009,14,11.5,161,2026-07-14T19:30:00-04:00
+sale_000450,rest_demo_001,ord_000450,Chocolate Lava Cake,menu_010,19,9.5,180.5,2026-07-14T19:30:00-04:00
+sale_000451,rest_demo_001,ord_000451,Classic Cheeseburger,menu_001,35,14.5,507.5,2026-07-15T19:30:00-04:00
+sale_000452,rest_demo_001,ord_000452,Margherita Pizza,menu_002,24,16,384,2026-07-15T19:30:00-04:00
+sale_000453,rest_demo_001,ord_000453,Caesar Salad,menu_003,20,12,240,2026-07-15T19:30:00-04:00
+sale_000454,rest_demo_001,ord_000454,Grilled Salmon,menu_004,15,24,360,2026-07-15T19:30:00-04:00
+sale_000455,rest_demo_001,ord_000455,Fettuccine Alfredo,menu_005,19,17.5,332.5,2026-07-15T19:30:00-04:00
+sale_000456,rest_demo_001,ord_000456,BBQ Ribs (Half Rack),menu_006,18,21,378,2026-07-15T19:30:00-04:00
+sale_000457,rest_demo_001,ord_000457,Black Truffle Risotto,menu_007,6,28,168,2026-07-15T19:30:00-04:00
+sale_000458,rest_demo_001,ord_000458,Buffalo Wings (1lb),menu_008,25,15.5,387.5,2026-07-15T19:30:00-04:00
+sale_000459,rest_demo_001,ord_000459,Veggie Hummus Wrap,menu_009,15,11.5,172.5,2026-07-15T19:30:00-04:00
+sale_000460,rest_demo_001,ord_000460,Chocolate Lava Cake,menu_010,20,9.5,190,2026-07-15T19:30:00-04:00
+sale_000461,rest_demo_001,ord_000461,Classic Cheeseburger,menu_001,37,14.5,536.5,2026-07-16T19:30:00-04:00
+sale_000462,rest_demo_001,ord_000462,Margherita Pizza,menu_002,29,16,464,2026-07-16T19:30:00-04:00
+sale_000463,rest_demo_001,ord_000463,Caesar Salad,menu_003,23,12,276,2026-07-16T19:30:00-04:00
+sale_000464,rest_demo_001,ord_000464,Grilled Salmon,menu_004,12,24,288,2026-07-16T19:30:00-04:00
+sale_000465,rest_demo_001,ord_000465,Fettuccine Alfredo,menu_005,18,17.5,315,2026-07-16T19:30:00-04:00
+sale_000466,rest_demo_001,ord_000466,BBQ Ribs (Half Rack),menu_006,18,21,378,2026-07-16T19:30:00-04:00
+sale_000467,rest_demo_001,ord_000467,Black Truffle Risotto,menu_007,6,28,168,2026-07-16T19:30:00-04:00
+sale_000468,rest_demo_001,ord_000468,Buffalo Wings (1lb),menu_008,23,15.5,356.5,2026-07-16T19:30:00-04:00
+sale_000469,rest_demo_001,ord_000469,Veggie Hummus Wrap,menu_009,16,11.5,184,2026-07-16T19:30:00-04:00
+sale_000470,rest_demo_001,ord_000470,Chocolate Lava Cake,menu_010,19,9.5,180.5,2026-07-16T19:30:00-04:00
+sale_000471,rest_demo_001,ord_000471,Classic Cheeseburger,menu_001,57,14.5,826.5,2026-07-17T19:30:00-04:00
+sale_000472,rest_demo_001,ord_000472,Margherita Pizza,menu_002,36,16,576,2026-07-17T19:30:00-04:00
+sale_000473,rest_demo_001,ord_000473,Caesar Salad,menu_003,31,12,372,2026-07-17T19:30:00-04:00
+sale_000474,rest_demo_001,ord_000474,Grilled Salmon,menu_004,21,24,504,2026-07-17T19:30:00-04:00
+sale_000475,rest_demo_001,ord_000475,Fettuccine Alfredo,menu_005,22,17.5,385,2026-07-17T19:30:00-04:00
+sale_000476,rest_demo_001,ord_000476,BBQ Ribs (Half Rack),menu_006,24,21,504,2026-07-17T19:30:00-04:00
+sale_000477,rest_demo_001,ord_000477,Black Truffle Risotto,menu_007,8,28,224,2026-07-17T19:30:00-04:00
+sale_000478,rest_demo_001,ord_000478,Buffalo Wings (1lb),menu_008,34,15.5,527,2026-07-17T19:30:00-04:00
+sale_000479,rest_demo_001,ord_000479,Veggie Hummus Wrap,menu_009,18,11.5,207,2026-07-17T19:30:00-04:00
+sale_000480,rest_demo_001,ord_000480,Chocolate Lava Cake,menu_010,28,9.5,266,2026-07-17T19:30:00-04:00
+sale_000481,rest_demo_001,ord_000481,Classic Cheeseburger,menu_001,57,14.5,826.5,2026-07-18T19:30:00-04:00
+sale_000482,rest_demo_001,ord_000482,Margherita Pizza,menu_002,47,16,752,2026-07-18T19:30:00-04:00
+sale_000483,rest_demo_001,ord_000483,Caesar Salad,menu_003,40,12,480,2026-07-18T19:30:00-04:00
+sale_000484,rest_demo_001,ord_000484,Grilled Salmon,menu_004,22,24,528,2026-07-18T19:30:00-04:00
+sale_000485,rest_demo_001,ord_000485,Fettuccine Alfredo,menu_005,33,17.5,577.5,2026-07-18T19:30:00-04:00
+sale_000486,rest_demo_001,ord_000486,BBQ Ribs (Half Rack),menu_006,30,21,630,2026-07-18T19:30:00-04:00
+sale_000487,rest_demo_001,ord_000487,Black Truffle Risotto,menu_007,9,28,252,2026-07-18T19:30:00-04:00
+sale_000488,rest_demo_001,ord_000488,Buffalo Wings (1lb),menu_008,34,15.5,527,2026-07-18T19:30:00-04:00
+sale_000489,rest_demo_001,ord_000489,Veggie Hummus Wrap,menu_009,21,11.5,241.5,2026-07-18T19:30:00-04:00
+sale_000490,rest_demo_001,ord_000490,Chocolate Lava Cake,menu_010,34,9.5,323,2026-07-18T19:30:00-04:00
+sale_000491,rest_demo_001,ord_000491,Classic Cheeseburger,menu_001,55,14.5,797.5,2026-07-19T19:30:00-04:00
+sale_000492,rest_demo_001,ord_000492,Margherita Pizza,menu_002,35,16,560,2026-07-19T19:30:00-04:00
+sale_000493,rest_demo_001,ord_000493,Caesar Salad,menu_003,29,12,348,2026-07-19T19:30:00-04:00
+sale_000494,rest_demo_001,ord_000494,Grilled Salmon,menu_004,19,24,456,2026-07-19T19:30:00-04:00
+sale_000495,rest_demo_001,ord_000495,Fettuccine Alfredo,menu_005,23,17.5,402.5,2026-07-19T19:30:00-04:00
+sale_000496,rest_demo_001,ord_000496,BBQ Ribs (Half Rack),menu_006,22,21,462,2026-07-19T19:30:00-04:00
+sale_000497,rest_demo_001,ord_000497,Black Truffle Risotto,menu_007,9,28,252,2026-07-19T19:30:00-04:00
+sale_000498,rest_demo_001,ord_000498,Buffalo Wings (1lb),menu_008,26,15.5,403,2026-07-19T19:30:00-04:00
+sale_000499,rest_demo_001,ord_000499,Veggie Hummus Wrap,menu_009,15,11.5,172.5,2026-07-19T19:30:00-04:00

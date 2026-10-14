@@ -1,0 +1,51 @@
+{
+  "name": "restobot-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "preflight": "node scripts/preflight.mjs",
+    "demo:birchwood": "esbuild scripts/serve-birchwood.ts --bundle --platform=node --format=esm --packages=external --outfile=scripts/serve-birchwood.generated.mjs && node scripts/serve-birchwood.generated.mjs",
+    "backtest": "tsx scripts/backtest-demand.ts",
+    "dev": "tsx server.ts",
+    "build": "npm run lint && vite build && esbuild server.ts --bundle --platform=node --format=esm --packages=external --sourcemap --outfile=dist/server.mjs && esbuild scripts/check-operations.ts --bundle --platform=node --format=esm --packages=external --outfile=dist/check-operations.mjs",
+    "start": "node dist/server.mjs",
+    "preview": "vite preview",
+    "clean": "rm -rf dist server.js",
+    "lint": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "npm test && npm run build && npm run test:build",
+    "test:build": "node scripts/smoke-build.mjs",
+    "operations:check": "tsx scripts/check-operations.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "@supabase/supabase-js": "^2.111.0",
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^5.0.4",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "papaparse": "^5.5.4",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "recharts": "^3.10.1",
+    "vite": "^6.2.3"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3",
+    "vitest": "^4.1.11"
+  }
+}

@@ -1,0 +1,500 @@
+date,item_name,quantity
+2026-05-31,Classic Cheeseburger,49
+2026-05-31,Margherita Pizza,37
+2026-05-31,Caesar Salad,26
+2026-05-31,Grilled Salmon,19
+2026-05-31,Fettuccine Alfredo,20
+2026-05-31,BBQ Ribs (Half Rack),19
+2026-05-31,Black Truffle Risotto,8
+2026-05-31,Buffalo Wings (1lb),29
+2026-05-31,Veggie Hummus Wrap,19
+2026-05-31,Chocolate Lava Cake,24
+2026-06-01,Classic Cheeseburger,35
+2026-06-01,Margherita Pizza,21
+2026-06-01,Caesar Salad,17
+2026-06-01,Grilled Salmon,11
+2026-06-01,Fettuccine Alfredo,13
+2026-06-01,BBQ Ribs (Half Rack),12
+2026-06-01,Black Truffle Risotto,4
+2026-06-01,Buffalo Wings (1lb),19
+2026-06-01,Veggie Hummus Wrap,13
+2026-06-01,Chocolate Lava Cake,16
+2026-06-02,Classic Cheeseburger,29
+2026-06-02,Margherita Pizza,22
+2026-06-02,Caesar Salad,16
+2026-06-02,Grilled Salmon,13
+2026-06-02,Fettuccine Alfredo,15
+2026-06-02,BBQ Ribs (Half Rack),13
+2026-06-02,Black Truffle Risotto,4
+2026-06-02,Buffalo Wings (1lb),21
+2026-06-02,Veggie Hummus Wrap,11
+2026-06-02,Chocolate Lava Cake,15
+2026-06-03,Classic Cheeseburger,40
+2026-06-03,Margherita Pizza,28
+2026-06-03,Caesar Salad,20
+2026-06-03,Grilled Salmon,13
+2026-06-03,Fettuccine Alfredo,18
+2026-06-03,BBQ Ribs (Half Rack),16
+2026-06-03,Black Truffle Risotto,5
+2026-06-03,Buffalo Wings (1lb),18
+2026-06-03,Veggie Hummus Wrap,13
+2026-06-03,Chocolate Lava Cake,17
+2026-06-04,Classic Cheeseburger,34
+2026-06-04,Margherita Pizza,35
+2026-06-04,Caesar Salad,25
+2026-06-04,Grilled Salmon,13
+2026-06-04,Fettuccine Alfredo,19
+2026-06-04,BBQ Ribs (Half Rack),15
+2026-06-04,Black Truffle Risotto,7
+2026-06-04,Buffalo Wings (1lb),24
+2026-06-04,Veggie Hummus Wrap,14
+2026-06-04,Chocolate Lava Cake,18
+2026-06-05,Classic Cheeseburger,53
+2026-06-05,Margherita Pizza,37
+2026-06-05,Caesar Salad,31
+2026-06-05,Grilled Salmon,22
+2026-06-05,Fettuccine Alfredo,24
+2026-06-05,BBQ Ribs (Half Rack),20
+2026-06-05,Black Truffle Risotto,10
+2026-06-05,Buffalo Wings (1lb),33
+2026-06-05,Veggie Hummus Wrap,17
+2026-06-05,Chocolate Lava Cake,23
+2026-06-06,Classic Cheeseburger,51
+2026-06-06,Margherita Pizza,49
+2026-06-06,Caesar Salad,38
+2026-06-06,Grilled Salmon,21
+2026-06-06,Fettuccine Alfredo,24
+2026-06-06,BBQ Ribs (Half Rack),24
+2026-06-06,Black Truffle Risotto,11
+2026-06-06,Buffalo Wings (1lb),38
+2026-06-06,Veggie Hummus Wrap,27
+2026-06-06,Chocolate Lava Cake,35
+2026-06-07,Classic Cheeseburger,36
+2026-06-07,Margherita Pizza,38
+2026-06-07,Caesar Salad,27
+2026-06-07,Grilled Salmon,16
+2026-06-07,Fettuccine Alfredo,19
+2026-06-07,BBQ Ribs (Half Rack),20
+2026-06-07,Black Truffle Risotto,6
+2026-06-07,Buffalo Wings (1lb),27
+2026-06-07,Veggie Hummus Wrap,17
+2026-06-07,Chocolate Lava Cake,27
+2026-06-08,Classic Cheeseburger,37
+2026-06-08,Margherita Pizza,24
+2026-06-08,Caesar Salad,19
+2026-06-08,Grilled Salmon,11
+2026-06-08,Fettuccine Alfredo,18
+2026-06-08,BBQ Ribs (Half Rack),16
+2026-06-08,Black Truffle Risotto,5
+2026-06-08,Buffalo Wings (1lb),22
+2026-06-08,Veggie Hummus Wrap,13
+2026-06-08,Chocolate Lava Cake,15
+2026-06-09,Classic Cheeseburger,34
+2026-06-09,Margherita Pizza,25
+2026-06-09,Caesar Salad,20
+2026-06-09,Grilled Salmon,11
+2026-06-09,Fettuccine Alfredo,12
+2026-06-09,BBQ Ribs (Half Rack),12
+2026-06-09,Black Truffle Risotto,4
+2026-06-09,Buffalo Wings (1lb),22
+2026-06-09,Veggie Hummus Wrap,14
+2026-06-09,Chocolate Lava Cake,18
+2026-06-10,Classic Cheeseburger,32
+2026-06-10,Margherita Pizza,23
+2026-06-10,Caesar Salad,23
+2026-06-10,Grilled Salmon,15
+2026-06-10,Fettuccine Alfredo,14
+2026-06-10,BBQ Ribs (Half Rack),15
+2026-06-10,Black Truffle Risotto,5
+2026-06-10,Buffalo Wings (1lb),24
+2026-06-10,Veggie Hummus Wrap,15
+2026-06-10,Chocolate Lava Cake,16
+2026-06-11,Classic Cheeseburger,38
+2026-06-11,Margherita Pizza,31
+2026-06-11,Caesar Salad,20
+2026-06-11,Grilled Salmon,16
+2026-06-11,Fettuccine Alfredo,18
+2026-06-11,BBQ Ribs (Half Rack),15
+2026-06-11,Black Truffle Risotto,6
+2026-06-11,Buffalo Wings (1lb),26
+2026-06-11,Veggie Hummus Wrap,14
+2026-06-11,Chocolate Lava Cake,19
+2026-06-12,Classic Cheeseburger,62
+2026-06-12,Margherita Pizza,43
+2026-06-12,Caesar Salad,30
+2026-06-12,Grilled Salmon,19
+2026-06-12,Fettuccine Alfredo,21
+2026-06-12,BBQ Ribs (Half Rack),20
+2026-06-12,Black Truffle Risotto,8
+2026-06-12,Buffalo Wings (1lb),34
+2026-06-12,Veggie Hummus Wrap,19
+2026-06-12,Chocolate Lava Cake,25
+2026-06-13,Classic Cheeseburger,51
+2026-06-13,Margherita Pizza,50
+2026-06-13,Caesar Salad,31
+2026-06-13,Grilled Salmon,25
+2026-06-13,Fettuccine Alfredo,32
+2026-06-13,BBQ Ribs (Half Rack),21
+2026-06-13,Black Truffle Risotto,9
+2026-06-13,Buffalo Wings (1lb),40
+2026-06-13,Veggie Hummus Wrap,21
+2026-06-13,Chocolate Lava Cake,27
+2026-06-14,Classic Cheeseburger,52
+2026-06-14,Margherita Pizza,36
+2026-06-14,Caesar Salad,26
+2026-06-14,Grilled Salmon,18
+2026-06-14,Fettuccine Alfredo,23
+2026-06-14,BBQ Ribs (Half Rack),17
+2026-06-14,Black Truffle Risotto,6
+2026-06-14,Buffalo Wings (1lb),27
+2026-06-14,Veggie Hummus Wrap,17
+2026-06-14,Chocolate Lava Cake,23
+2026-06-15,Classic Cheeseburger,36
+2026-06-15,Margherita Pizza,28
+2026-06-15,Caesar Salad,22
+2026-06-15,Grilled Salmon,10
+2026-06-15,Fettuccine Alfredo,15
+2026-06-15,BBQ Ribs (Half Rack),13
+2026-06-15,Black Truffle Risotto,6
+2026-06-15,Buffalo Wings (1lb),19
+2026-06-15,Veggie Hummus Wrap,12
+2026-06-15,Chocolate Lava Cake,17
+2026-06-16,Classic Cheeseburger,30
+2026-06-16,Margherita Pizza,23
+2026-06-16,Caesar Salad,16
+2026-06-16,Grilled Salmon,13
+2026-06-16,Fettuccine Alfredo,14
+2026-06-16,BBQ Ribs (Half Rack),15
+2026-06-16,Black Truffle Risotto,5
+2026-06-16,Buffalo Wings (1lb),16
+2026-06-16,Veggie Hummus Wrap,14
+2026-06-16,Chocolate Lava Cake,18
+2026-06-17,Classic Cheeseburger,41
+2026-06-17,Margherita Pizza,32
+2026-06-17,Caesar Salad,23
+2026-06-17,Grilled Salmon,11
+2026-06-17,Fettuccine Alfredo,17
+2026-06-17,BBQ Ribs (Half Rack),13
+2026-06-17,Black Truffle Risotto,5
+2026-06-17,Buffalo Wings (1lb),19
+2026-06-17,Veggie Hummus Wrap,13
+2026-06-17,Chocolate Lava Cake,22
+2026-06-18,Classic Cheeseburger,36
+2026-06-18,Margherita Pizza,34
+2026-06-18,Caesar Salad,22
+2026-06-18,Grilled Salmon,14
+2026-06-18,Fettuccine Alfredo,22
+2026-06-18,BBQ Ribs (Half Rack),19
+2026-06-18,Black Truffle Risotto,6
+2026-06-18,Buffalo Wings (1lb),27
+2026-06-18,Veggie Hummus Wrap,13
+2026-06-18,Chocolate Lava Cake,19
+2026-06-19,Classic Cheeseburger,62
+2026-06-19,Margherita Pizza,43
+2026-06-19,Caesar Salad,31
+2026-06-19,Grilled Salmon,21
+2026-06-19,Fettuccine Alfredo,21
+2026-06-19,BBQ Ribs (Half Rack),23
+2026-06-19,Black Truffle Risotto,8
+2026-06-19,Buffalo Wings (1lb),38
+2026-06-19,Veggie Hummus Wrap,18
+2026-06-19,Chocolate Lava Cake,32
+2026-06-20,Classic Cheeseburger,51
+2026-06-20,Margherita Pizza,42
+2026-06-20,Caesar Salad,36
+2026-06-20,Grilled Salmon,24
+2026-06-20,Fettuccine Alfredo,26
+2026-06-20,BBQ Ribs (Half Rack),22
+2026-06-20,Black Truffle Risotto,11
+2026-06-20,Buffalo Wings (1lb),35
+2026-06-20,Veggie Hummus Wrap,25
+2026-06-20,Chocolate Lava Cake,33
+2026-06-21,Classic Cheeseburger,44
+2026-06-21,Margherita Pizza,37
+2026-06-21,Caesar Salad,26
+2026-06-21,Grilled Salmon,19
+2026-06-21,Fettuccine Alfredo,19
+2026-06-21,BBQ Ribs (Half Rack),20
+2026-06-21,Black Truffle Risotto,6
+2026-06-21,Buffalo Wings (1lb),27
+2026-06-21,Veggie Hummus Wrap,19
+2026-06-21,Chocolate Lava Cake,22
+2026-06-22,Classic Cheeseburger,31
+2026-06-22,Margherita Pizza,29
+2026-06-22,Caesar Salad,16
+2026-06-22,Grilled Salmon,12
+2026-06-22,Fettuccine Alfredo,19
+2026-06-22,BBQ Ribs (Half Rack),17
+2026-06-22,Black Truffle Risotto,4
+2026-06-22,Buffalo Wings (1lb),19
+2026-06-22,Veggie Hummus Wrap,12
+2026-06-22,Chocolate Lava Cake,20
+2026-06-23,Classic Cheeseburger,36
+2026-06-23,Margherita Pizza,28
+2026-06-23,Caesar Salad,17
+2026-06-23,Grilled Salmon,10
+2026-06-23,Fettuccine Alfredo,17
+2026-06-23,BBQ Ribs (Half Rack),14
+2026-06-23,Black Truffle Risotto,5
+2026-06-23,Buffalo Wings (1lb),23
+2026-06-23,Veggie Hummus Wrap,13
+2026-06-23,Chocolate Lava Cake,14
+2026-06-24,Classic Cheeseburger,39
+2026-06-24,Margherita Pizza,26
+2026-06-24,Caesar Salad,22
+2026-06-24,Grilled Salmon,15
+2026-06-24,Fettuccine Alfredo,15
+2026-06-24,BBQ Ribs (Half Rack),13
+2026-06-24,Black Truffle Risotto,5
+2026-06-24,Buffalo Wings (1lb),23
+2026-06-24,Veggie Hummus Wrap,13
+2026-06-24,Chocolate Lava Cake,19
+2026-06-25,Classic Cheeseburger,43
+2026-06-25,Margherita Pizza,28
+2026-06-25,Caesar Salad,24
+2026-06-25,Grilled Salmon,13
+2026-06-25,Fettuccine Alfredo,19
+2026-06-25,BBQ Ribs (Half Rack),19
+2026-06-25,Black Truffle Risotto,7
+2026-06-25,Buffalo Wings (1lb),21
+2026-06-25,Veggie Hummus Wrap,15
+2026-06-25,Chocolate Lava Cake,19
+2026-06-26,Classic Cheeseburger,44
+2026-06-26,Margherita Pizza,46
+2026-06-26,Caesar Salad,32
+2026-06-26,Grilled Salmon,18
+2026-06-26,Fettuccine Alfredo,27
+2026-06-26,BBQ Ribs (Half Rack),23
+2026-06-26,Black Truffle Risotto,8
+2026-06-26,Buffalo Wings (1lb),28
+2026-06-26,Veggie Hummus Wrap,18
+2026-06-26,Chocolate Lava Cake,32
+2026-06-27,Classic Cheeseburger,70
+2026-06-27,Margherita Pizza,49
+2026-06-27,Caesar Salad,40
+2026-06-27,Grilled Salmon,23
+2026-06-27,Fettuccine Alfredo,25
+2026-06-27,BBQ Ribs (Half Rack),22
+2026-06-27,Black Truffle Risotto,9
+2026-06-27,Buffalo Wings (1lb),44
+2026-06-27,Veggie Hummus Wrap,27
+2026-06-27,Chocolate Lava Cake,36
+2026-06-28,Classic Cheeseburger,52
+2026-06-28,Margherita Pizza,32
+2026-06-28,Caesar Salad,24
+2026-06-28,Grilled Salmon,14
+2026-06-28,Fettuccine Alfredo,24
+2026-06-28,BBQ Ribs (Half Rack),22
+2026-06-28,Black Truffle Risotto,7
+2026-06-28,Buffalo Wings (1lb),30
+2026-06-28,Veggie Hummus Wrap,16
+2026-06-28,Chocolate Lava Cake,28
+2026-06-29,Classic Cheeseburger,38
+2026-06-29,Margherita Pizza,31
+2026-06-29,Caesar Salad,22
+2026-06-29,Grilled Salmon,14
+2026-06-29,Fettuccine Alfredo,13
+2026-06-29,BBQ Ribs (Half Rack),15
+2026-06-29,Black Truffle Risotto,5
+2026-06-29,Buffalo Wings (1lb),25
+2026-06-29,Veggie Hummus Wrap,15
+2026-06-29,Chocolate Lava Cake,20
+2026-06-30,Classic Cheeseburger,35
+2026-06-30,Margherita Pizza,23
+2026-06-30,Caesar Salad,20
+2026-06-30,Grilled Salmon,10
+2026-06-30,Fettuccine Alfredo,17
+2026-06-30,BBQ Ribs (Half Rack),15
+2026-06-30,Black Truffle Risotto,5
+2026-06-30,Buffalo Wings (1lb),22
+2026-06-30,Veggie Hummus Wrap,12
+2026-06-30,Chocolate Lava Cake,16
+2026-07-01,Classic Cheeseburger,40
+2026-07-01,Margherita Pizza,25
+2026-07-01,Caesar Salad,17
+2026-07-01,Grilled Salmon,12
+2026-07-01,Fettuccine Alfredo,16
+2026-07-01,BBQ Ribs (Half Rack),17
+2026-07-01,Black Truffle Risotto,7
+2026-07-01,Buffalo Wings (1lb),21
+2026-07-01,Veggie Hummus Wrap,15
+2026-07-01,Chocolate Lava Cake,18
+2026-07-02,Classic Cheeseburger,47
+2026-07-02,Margherita Pizza,32
+2026-07-02,Caesar Salad,27
+2026-07-02,Grilled Salmon,13
+2026-07-02,Fettuccine Alfredo,22
+2026-07-02,BBQ Ribs (Half Rack),15
+2026-07-02,Black Truffle Risotto,7
+2026-07-02,Buffalo Wings (1lb),23
+2026-07-02,Veggie Hummus Wrap,14
+2026-07-02,Chocolate Lava Cake,20
+2026-07-03,Classic Cheeseburger,58
+2026-07-03,Margherita Pizza,40
+2026-07-03,Caesar Salad,32
+2026-07-03,Grilled Salmon,20
+2026-07-03,Fettuccine Alfredo,24
+2026-07-03,BBQ Ribs (Half Rack),23
+2026-07-03,Black Truffle Risotto,8
+2026-07-03,Buffalo Wings (1lb),37
+2026-07-03,Veggie Hummus Wrap,17
+2026-07-03,Chocolate Lava Cake,33
+2026-07-04,Classic Cheeseburger,63
+2026-07-04,Margherita Pizza,53
+2026-07-04,Caesar Salad,39
+2026-07-04,Grilled Salmon,24
+2026-07-04,Fettuccine Alfredo,28
+2026-07-04,BBQ Ribs (Half Rack),22
+2026-07-04,Black Truffle Risotto,10
+2026-07-04,Buffalo Wings (1lb),37
+2026-07-04,Veggie Hummus Wrap,23
+2026-07-04,Chocolate Lava Cake,37
+2026-07-05,Classic Cheeseburger,50
+2026-07-05,Margherita Pizza,34
+2026-07-05,Caesar Salad,25
+2026-07-05,Grilled Salmon,16
+2026-07-05,Fettuccine Alfredo,21
+2026-07-05,BBQ Ribs (Half Rack),18
+2026-07-05,Black Truffle Risotto,6
+2026-07-05,Buffalo Wings (1lb),28
+2026-07-05,Veggie Hummus Wrap,21
+2026-07-05,Chocolate Lava Cake,26
+2026-07-06,Classic Cheeseburger,39
+2026-07-06,Margherita Pizza,28
+2026-07-06,Caesar Salad,18
+2026-07-06,Grilled Salmon,13
+2026-07-06,Fettuccine Alfredo,13
+2026-07-06,BBQ Ribs (Half Rack),13
+2026-07-06,Black Truffle Risotto,5
+2026-07-06,Buffalo Wings (1lb),22
+2026-07-06,Veggie Hummus Wrap,14
+2026-07-06,Chocolate Lava Cake,18
+2026-07-07,Classic Cheeseburger,31
+2026-07-07,Margherita Pizza,23
+2026-07-07,Caesar Salad,18
+2026-07-07,Grilled Salmon,14
+2026-07-07,Fettuccine Alfredo,17
+2026-07-07,BBQ Ribs (Half Rack),12
+2026-07-07,Black Truffle Risotto,4
+2026-07-07,Buffalo Wings (1lb),20
+2026-07-07,Veggie Hummus Wrap,13
+2026-07-07,Chocolate Lava Cake,16
+2026-07-08,Classic Cheeseburger,40
+2026-07-08,Margherita Pizza,31
+2026-07-08,Caesar Salad,22
+2026-07-08,Grilled Salmon,12
+2026-07-08,Fettuccine Alfredo,15
+2026-07-08,BBQ Ribs (Half Rack),13
+2026-07-08,Black Truffle Risotto,5
+2026-07-08,Buffalo Wings (1lb),23
+2026-07-08,Veggie Hummus Wrap,16
+2026-07-08,Chocolate Lava Cake,16
+2026-07-09,Classic Cheeseburger,39
+2026-07-09,Margherita Pizza,33
+2026-07-09,Caesar Salad,21
+2026-07-09,Grilled Salmon,16
+2026-07-09,Fettuccine Alfredo,19
+2026-07-09,BBQ Ribs (Half Rack),15
+2026-07-09,Black Truffle Risotto,7
+2026-07-09,Buffalo Wings (1lb),21
+2026-07-09,Veggie Hummus Wrap,17
+2026-07-09,Chocolate Lava Cake,23
+2026-07-10,Classic Cheeseburger,47
+2026-07-10,Margherita Pizza,42
+2026-07-10,Caesar Salad,28
+2026-07-10,Grilled Salmon,23
+2026-07-10,Fettuccine Alfredo,26
+2026-07-10,BBQ Ribs (Half Rack),19
+2026-07-10,Black Truffle Risotto,8
+2026-07-10,Buffalo Wings (1lb),39
+2026-07-10,Veggie Hummus Wrap,21
+2026-07-10,Chocolate Lava Cake,32
+2026-07-11,Classic Cheeseburger,66
+2026-07-11,Margherita Pizza,58
+2026-07-11,Caesar Salad,37
+2026-07-11,Grilled Salmon,27
+2026-07-11,Fettuccine Alfredo,34
+2026-07-11,BBQ Ribs (Half Rack),27
+2026-07-11,Black Truffle Risotto,11
+2026-07-11,Buffalo Wings (1lb),40
+2026-07-11,Veggie Hummus Wrap,28
+2026-07-11,Chocolate Lava Cake,33
+2026-07-12,Classic Cheeseburger,53
+2026-07-12,Margherita Pizza,40
+2026-07-12,Caesar Salad,27
+2026-07-12,Grilled Salmon,16
+2026-07-12,Fettuccine Alfredo,20
+2026-07-12,BBQ Ribs (Half Rack),21
+2026-07-12,Black Truffle Risotto,8
+2026-07-12,Buffalo Wings (1lb),30
+2026-07-12,Veggie Hummus Wrap,19
+2026-07-12,Chocolate Lava Cake,22
+2026-07-13,Classic Cheeseburger,29
+2026-07-13,Margherita Pizza,25
+2026-07-13,Caesar Salad,18
+2026-07-13,Grilled Salmon,12
+2026-07-13,Fettuccine Alfredo,17
+2026-07-13,BBQ Ribs (Half Rack),13
+2026-07-13,Black Truffle Risotto,5
+2026-07-13,Buffalo Wings (1lb),23
+2026-07-13,Veggie Hummus Wrap,15
+2026-07-13,Chocolate Lava Cake,15
+2026-07-14,Classic Cheeseburger,31
+2026-07-14,Margherita Pizza,26
+2026-07-14,Caesar Salad,18
+2026-07-14,Grilled Salmon,11
+2026-07-14,Fettuccine Alfredo,15
+2026-07-14,BBQ Ribs (Half Rack),16
+2026-07-14,Black Truffle Risotto,5
+2026-07-14,Buffalo Wings (1lb),22
+2026-07-14,Veggie Hummus Wrap,14
+2026-07-14,Chocolate Lava Cake,19
+2026-07-15,Classic Cheeseburger,35
+2026-07-15,Margherita Pizza,24
+2026-07-15,Caesar Salad,20
+2026-07-15,Grilled Salmon,15
+2026-07-15,Fettuccine Alfredo,19
+2026-07-15,BBQ Ribs (Half Rack),18
+2026-07-15,Black Truffle Risotto,6
+2026-07-15,Buffalo Wings (1lb),25
+2026-07-15,Veggie Hummus Wrap,15
+2026-07-15,Chocolate Lava Cake,20
+2026-07-16,Classic Cheeseburger,37
+2026-07-16,Margherita Pizza,29
+2026-07-16,Caesar Salad,23
+2026-07-16,Grilled Salmon,12
+2026-07-16,Fettuccine Alfredo,18
+2026-07-16,BBQ Ribs (Half Rack),18
+2026-07-16,Black Truffle Risotto,6
+2026-07-16,Buffalo Wings (1lb),23
+2026-07-16,Veggie Hummus Wrap,16
+2026-07-16,Chocolate Lava Cake,19
+2026-07-17,Classic Cheeseburger,57
+2026-07-17,Margherita Pizza,36
+2026-07-17,Caesar Salad,31
+2026-07-17,Grilled Salmon,21
+2026-07-17,Fettuccine Alfredo,22
+2026-07-17,BBQ Ribs (Half Rack),24
+2026-07-17,Black Truffle Risotto,8
+2026-07-17,Buffalo Wings (1lb),34
+2026-07-17,Veggie Hummus Wrap,18
+2026-07-17,Chocolate Lava Cake,28
+2026-07-18,Classic Cheeseburger,57
+2026-07-18,Margherita Pizza,47
+2026-07-18,Caesar Salad,40
+2026-07-18,Grilled Salmon,22
+2026-07-18,Fettuccine Alfredo,33
+2026-07-18,BBQ Ribs (Half Rack),30
+2026-07-18,Black Truffle Risotto,9
+2026-07-18,Buffalo Wings (1lb),34
+2026-07-18,Veggie Hummus Wrap,21
+2026-07-18,Chocolate Lava Cake,34
+2026-07-19,Classic Cheeseburger,55
+2026-07-19,Margherita Pizza,35
+2026-07-19,Caesar Salad,29
+2026-07-19,Grilled Salmon,19
+2026-07-19,Fettuccine Alfredo,23
+2026-07-19,BBQ Ribs (Half Rack),22
+2026-07-19,Black Truffle Risotto,9
+2026-07-19,Buffalo Wings (1lb),26
+2026-07-19,Veggie Hummus Wrap,15

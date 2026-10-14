@@ -1,0 +1,16 @@
+{
+  "restaurantId": "00000000-0000-4000-8000-000000000001",
+  "previous": [
+    {
+      "id": "92bad4ae-2ae3-459f-a696-504d9091b4bb",
+      "name": "Cheese",
+      "active_status": true
+    },
+    {
+      "id": "999a51ba-2418-490e-b09c-323efba7f8af",
+      "name": "pepper",
+      "active_status": true
+    }
+  ],
+  "reason": "Owner authorized temporary inactivation for synthetic workflow testing"
+}

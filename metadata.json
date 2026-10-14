@@ -1,0 +1,6 @@
+{
+  "name": "Rinet Resto Bot",
+  "description": "AI-powered inventory, margin protection, sales ingestion, and smart ordering bot for restaurant owners.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

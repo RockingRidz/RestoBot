@@ -1,0 +1,22 @@
+{
+  "ingredient": {
+    "id": "ing_027",
+    "restaurant_id": "rest_demo_001",
+    "name": "Black Truffle (Fresh)",
+    "unit": "oz",
+    "cost_per_unit": 19.5,
+    "previous_cost_per_unit": 12
+  },
+  "expectedSubstitutes": [
+    {
+      "substitute_id": "ing_042",
+      "substitute_name": "Truffle Oil",
+      "note": "Owner-provided: ~90% cheaper per portion; not independently costed"
+    },
+    {
+      "substitute_id": "ing_043",
+      "substitute_name": "Dried Porcini Mushroom",
+      "note": "Owner-provided: ~85% cheaper per portion; not independently costed"
+    }
+  ]
+}
