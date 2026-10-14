@@ -11,6 +11,8 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
+      - key: HOST
+        value: 0.0.0.0
       - key: RESTOBOT_RESTAURANT_ID
         value: 4b7f7099-132d-4b01-aaa8-43cc13adcd0b
       - key: RESTOBOT_RESTAURANT_NAME
